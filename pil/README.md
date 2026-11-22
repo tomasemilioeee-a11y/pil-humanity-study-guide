@@ -29,11 +29,134 @@
 6. One or two sentences of critical reflection for originality marks (Eurocentrism, judicial activism in custom-finding, fragmentation).
 7. Tab Blackstone: UN Charter (Arts 1, 2, 4, 25, 39–51, 103), ICJ Statute (Arts 36, 38, 59), VCLT (Arts 2, 7, 11–21, 26–27, 31–33, 34–38, 42–64), Montevideo Convention, GA Res 1514, 1541, 2625, 3314, ARSIWA, Rome Statute, UNCSI.
 
-## Practice problems
+## Problem questions
 
-Original problems in the style of the exam. Write under time first, then open the checklist.
+Official sample and past exam questions first, retold in our own words (the original papers are on Brightspace), then original practice problems. Write under time first, then open the checklist.
+
+### ★ Jalapenia and the Goldshell Crab (40 min)
+
+*Week 7 working-group questions (sample exam question, 25 points). Retold in our own words; the original is on Brightspace.*
+
+Save the Goldshell Crab (SGC), a Rustican action group, thinks Rustico is doing too little to stop Jalapenia fishing the endangered Goldshell Crab. From April 2018 it holds marches in Rustico's capital, Daim, which turn violent: on 10 May protesters smash shop windows and throw fireworks at the police; on 1 June a crowd storms the parliament building, leaving 5 dead and 150 injured, before the police restore order and make arrests.
+
+On 5 September 2018 eight Jalapenian fishing boats on the Rio del Oro are blown up. In a YouTube video the SGC's leader, 'General Rainbow', claims the attack as a warning and threatens much worse if Jalapenia keeps fishing the crab, boasting that the group has enough explosives to destroy a whole city.
+
+You advise Jalapenia's Ministry of Defence. May Jalapenia lawfully act in self-defence? Assess every condition.
+
+<details><summary>Issue checklist</summary>
+
+- Frame: Art 2(4) and the Art 51 exception; self-defence is also customary (Nicaragua).
+- Armed attack: is the destruction of eight fishing boats grave enough in scale and effects (Nicaragua para 191; Oil Platforms para 72: the Court did not exclude that the mining of a single military vessel might suffice)? Are fishing boats 'State' targets or private property?
+- Author: the SGC is a non-state actor. Attribution to Rustico (Art 8 ARSIWA effective control; Res 3314 Art 3(g) 'sent by or on behalf of', 'substantial involvement')? The facts show discontent with, not support from, Rustico.
+- Self-defence against non-state actors: Wall para 139 and DRC v Uganda paras 146–147 (restrictive) versus post-9/11 practice and SC Res 1368/1373 and 'unwilling or unable'. Is Rustico unwilling or unable (it regained control of parliament and made arrests)?
+- The threat to 'destroy an entire city': anticipatory self-defence against an imminent attack (Caroline) versus a pre-emptive response to a non-imminent threat; conditional threat ('if anyone dares').
+- Necessity: are there alternatives (cooperation with Rustico's police, which has shown capacity)? Proportionality of any response; reporting to the SC.
+- Conclusion: very likely no right to use force on Rustican territory; Jalapenia may act on its own territory and waters, ask Rustico to prevent attacks (Corfu Channel due diligence) and invoke Rustico's responsibility if it fails.
+
+</details>
+
+### ★ Assad at Tegel Airport (45 min)
+
+*Week 8 reading guidance (sample exam question). Retold in our own words; the original is on Brightspace.*
+
+On 10 January 2019 German police arrest Syria's sitting President, Bashar al-Assad, at Berlin's Tegel Airport during a private visit to relatives, on a warrant from the Federal Prosecutor General. Germany wants to try him under its Code of Crimes against International Law (VStGB) for war crimes, crimes against humanity and torture committed in Syria between 2013 and 2018 by Syrian troops against about 2,000 Syrian, 400 French and 10 German nationals. He allegedly ordered attacks on civilians, the use of chemical weapons and the abuse of detainees. The Prosecutor also points to German interests, citing the costs of the refugee influx. The defence argues that a serving Head of State cannot be tried by a foreign national court, and that Germany lacks jurisdiction because the crimes took place abroad and few victims were German.
+
+(1) On which jurisdictional bases could Germany rely, and which fail? (2) Is the immunity objection right, and what else could block a German prosecution? (3) Would the answer change if he came to Germany six months after leaving office? (4) What if, still in office, he were arrested in the Netherlands on an ICC warrant after a Security Council referral of Syria, a non-party?
+
+<details><summary>Issue checklist</summary>
+
+- Jurisdiction: universal jurisdiction (custom for war crimes and CAH; CAT Arts 5(2), 6, 7 since he is present); passive personality (10 German victims). Not territoriality, not active nationality. The protective principle fails: refugee costs are not a vital State interest attacked by the conduct.
+- Sitting Head of State: immunity ratione personae is absolute before foreign national courts, including for international crimes (Arrest Warrant paras 51–61); arrest violates inviolability. Germany must release him.
+- After stepping down: personal immunity ends; functional immunity for official acts. Argue no functional immunity for torture (Pinochet; CAT logic) and possibly for core crimes (ILC draft Art 7, contested). Arrest Warrant para 61 avenue: acts 'in a private capacity' versus the trend to deny functional immunity for international crimes.
+- ICC route: Art 27 removes official capacity. SC referral under Art 13(b) binds Syria to cooperate as if a party (Al-Bashir Jordan Appeal 2019: no customary head-of-State immunity vis-à-vis international courts). The Netherlands must arrest and surrender (Art 89); Art 98(1) tension; Mongolia/Putin non-compliance finding (2024) as a contrast.
+- Structure: one heading per sub-question, rule then application, short conclusion each.
+
+</details>
+
+### ★ EU 'friendly nations' raw materials (40 min)
+
+*Week 9 working-group mock exam question. Retold in our own words; the original is on Brightspace.*
+
+To cut its reliance on critical raw materials and rare earths from countries it sees as a security risk, the EU gives preference to imports from 'friendly nations' on a Commission list, which pay lower tariffs on these goods. Imports from China, judged especially risky, remain possible but only within quotas the Commission revises by regulation every six months. China starts WTO dispute settlement.
+
+With reference to the GATT: (a) which claims can China bring under the core WTO obligations? (b) Can the EU justify its measures?
+
+<details><summary>Issue checklist</summary>
+
+- Forum: compulsory and exclusive WTO jurisdiction (DSU Arts 6.1, 23.1); Appellate Body paralysis (appeal into the void; MPIA).
+- MFN (Art I:1): an advantage (lower tariff) granted to some members' like products is not extended 'immediately and unconditionally' to all, including China.
+- Tariff bindings (Art II) if rates exceed bound levels for China.
+- Quantitative restrictions (Art XI:1) on Chinese imports; non-discriminatory administration of quotas (Art XIII).
+- Defence under Art XXI(b)(iii): 'emergency in international relations' is objectively reviewable (Russia – Traffic in Transit); is economic dependence an emergency? Good faith and minimum plausibility linking measures to security interests; 'which it considers' covers the necessity of the measures and the Member's definition of its own essential security interests (both subject to good faith and minimum plausibility), but not the objective circumstances listed in (i)-(iii).
+- Defence under Art XX: (g) exhaustible natural resources needs even-handed domestic restrictions; (j) short supply; (b) unlikely. Then the chapeau: a political 'friends' list risks arbitrary or unjustifiable discrimination (US – Shrimp).
+- Other exceptions do not fit: Art XXIV covers customs unions and FTAs, not a Commission list. Conclusion: strong prima facie violations; the security exception is the EU's best but uncertain defence.
+
+</details>
+
+### ★ Valdoria, Ironwatch and the Karsk Plateau (50 min)
+
+*Week 10 attribution problem question. Retold in our own words; the original is on Brightspace.*
+
+Valdoria and Estoria dispute the mineral-rich Karsk Plateau; both are parties to the VCDR and the ICCPR. In January, Valdoria's defence ministry signs up Ironwatch Ltd, a private Valdorian security firm: Valdoria supplies arms, fuel, satellite intelligence and a monthly fee, and Ironwatch is to help defend Valdorian interests on the Plateau, with no instructions on specific operations. The defence minister says publicly that Valdoria does not control Ironwatch and only supports 'patriots'.
+
+In March a Valdorian intelligence officer sends Ironwatch's commander, Brandt, a satellite image of an Estorian mining convoy, noting that it is vulnerable and that he should do as he sees fit. Brandt's unit stops the convoy, destroys its equipment and holds eleven Estorian engineers for three weeks in an old barracks without consular access. Brandt has two engineers beaten for refusing to hand over geological data. Valdorian officials did not know; the minister condemned it on finding out, but Ironwatch's fee kept being paid.
+
+In April the Karsk Liberation Front (KLF), a nominally independent militia that Valdoria has trained, armed and funded for years without ever directing its operations, attacks an Estorian border post.
+
+Valdoria denies that any Ironwatch or KLF conduct is attributable to it and adds that the convoy was an unlawful armed incursion, so its response was self-defence. Estoria goes to the ICJ. Advise Estoria: (1) are (a) the detention and the destruction of the convoy, (b) the beatings and (c) the KLF attack attributable to Valdoria under ARSIWA? (2) Can Valdoria rely on a circumstance precluding wrongfulness for destroying the convoy?
+
+<details><summary>Issue checklist</summary>
+
+- (a) Convoy: Ironwatch is not a de jure organ; de facto organ requires complete dependence (Nicaragua para 109; Bosnia para 392) — unlikely. Art 5: 'assist in the defence of Valdorian interests' is not empowerment by law to exercise governmental authority. Art 8: the intelligence officer's image plus 'Do what you think best' is arguably direction for this specific operation; argue instructions or direction, or effective control over the operation (Nicaragua para 115; Bosnia para 400). The Minister's denial of control is not decisive.
+- (b) Beating: outside any instruction; Art 7 ultra vires covers only organs and Art 5 entities, so a private actor's excess under Art 8 is attributable only if incidental to the instructed operation (ILC Commentary to Art 8 para 8). Art 11: condemnation, so no adoption; continuing the retainer is not clear and unequivocal acknowledgment. Fallback: Valdoria's own due diligence and ICCPR Art 7 and 9 duties; consular access (VCCR Art 36, not the VCDR named in the facts).
+- (c) KLF: years of arming and funding but no direction, so no effective control (Nicaragua); Tadić overall control rejected for attribution (Bosnia paras 403–406). Not attributable; but supply may itself breach the non-use of force and non-intervention (Nicaragua para 228).
+- (2) Self-defence (Art 21): requires an armed attack by Estoria; a mining convoy is not an armed attack in scale and effects, and response must be necessary and proportionate. Countermeasures (Art 22): require a prior wrong, notification, proportionality, non-forcible; destruction and detention fail. Necessity (Art 25) fails too.
+- Consequences: cessation, release, reparation (Arts 30–31; Chorzów); jurisdiction basis before the ICJ.
+
+</details>
+
+### ★ Azargh's independence (25 min)
+
+*Week 2 working-group sample question, with the official model answer (20 points). Retold in our own words; the original is on Brightspace.*
+
+Azargh, a mountain region in southern Erebor, is mostly inhabited by ethnic Belerians, the people of neighbouring Beleria. Erebor claims it by historic title; Beleria relies on the self-determination of Azargh's population, which said it wanted to join Beleria in the late 1980s and declared independence in 1991. Only Beleria recognises the de facto Republic of Azargh.
+
+As legal adviser to Azargh's foreign ministry, and citing authority: what does the right to self-determination mean for the people of Azargh and their aim of becoming an independent State? (20 points)
+
+<details><summary>Official marking key (summarised, with points)</summary>
+
+- OFFICIAL KEY (~5 pts) legal basis and peoples: self-determination in common Art 1 ICESCR/ICCPR — the right of a people to determine its political status (2); no definition of 'peoples' in IL (1); Azargh's population is ethnically distinct from Erebor's majority, a foundation for a 'people' claim (2).
+- OFFICIAL KEY (~5 pts) case law and external versus internal: being a people does not imply a right to an independent State (1); internal versus external self-determination, external including independence (Res 1541; Friendly Relations Declaration) (2); external self-determination accrues to colonial peoples and peoples under foreign subjugation (Res 1541, 2625; Kosovo and Chagos AOs) (2).
+- OFFICIAL KEY (~3 pts) uti possidetis and consent: outside those situations self-determination is at odds with uti possidetis and the integrity of borders (2); a declaration of independence like Azargh's in 1991 does not violate IL (Kosovo) (2); but to take effect, uti possidetis requires the consent of the parent State (Badinter) (2).
+- OFFICIAL KEY (~7 pts) application and conclusion: Azargh has a right to internal self-determination but can only establish an independent State with Erebor's consent (2). Extra points (up to the cap) for discussing remedial secession.
+- Useful extras: recognition only by Beleria (an interested neighbour) may be premature and evidences lack of statehood; effective government and independence from Beleria (puppet-State risk); joining Beleria instead raises territorial integrity and the prohibition on acquiring territory by force.
+
+</details>
+
+### ★ Rio del Oro and the Goldshell Crab (40 min)
+
+*Week 4 working-group sample question (30 points). Retold in our own words; the original is on Brightspace.*
+
+Rustico and Jalapenia, neighbouring UN members (Koyoma is a third UN member), share the Rio del Oro, once rich in gold. Their 1885 Treaty of Friendship, Commerce and Navigation makes the thalweg the line for gold exploration. Article 1 commits them to exploit the river's 'exhaustible natural resources, including gold' equitably, and bars each from exploiting those resources beyond its thalweg.
+
+By the 2010s the gold is mostly gone, but Jalapenia now fishes the Goldshell Crab, which lives on the riverbed, intensively across the whole river. The crab faces extinction and has been on CITES Appendix I since 2015, which bars commercial trade in wild specimens; all three States are CITES parties. After talks fail, Rustico sues Jalapenia at the ICJ in 2018 (jurisdiction is accepted) for breach of Article 1. Jalapenia says the crab falls outside it.
+
+As clerk to an ICJ judge, using texts, literature and case law: does Article 1 cover fishing the crab, and how is the case likely to end for Jalapenia? Consider both sides' arguments. (30 points)
+
+<details><summary>Issue checklist</summary>
+
+- Applicable rules: VCLT Arts 31–32 as custom for an 1885 treaty (Art 4 non-retroactivity; Costa Rica v Nicaragua para 47–48 applied them to an 1858 treaty). No restrictive interpretation in favour of sovereignty (para 48).
+- Ordinary meaning: 'exhaustible natural resources, including gold' — 'including' signals a non-exhaustive list; are living resources 'exhaustible'? Jalapenia: in 1885 the parties meant minerals (contemporaneity; 'exploit' and 'exploration' context); Rustico: generic term.
+- Context and object and purpose: equitable management of the river's resources between two States; the thalweg as a dividing line; title 'Friendship, Commerce and Navigation'.
+- Evolutive interpretation: Costa Rica v Nicaragua para 66 — generic terms in a treaty of long or unlimited duration are presumed to evolve; US – Shrimp (AB 1998): 'exhaustible natural resources' in GATT XX(g) covers living species, read with CITES; Art 31(3)(c) relevant rules (CITES Appendix I listing binding both parties) — systemic integration. Pauwelyn and Elsig on the ICJ sitting 'in between' textual and evolutive approaches.
+- Counter-arguments: Ukraine v Russia (2024) shows a narrower textual reading; Aegean Sea ('territorial status' evolving) supports Rustico.
+- Likely outcome: Article 1 applies to the Goldshell Crab, so Jalapenia's fishing beyond the thalweg breaches the treaty; remedies: cessation, possibly reparation. As clerk, weigh both sides neutrally and predict.
+
+</details>
 
 ### The Varnia border strikes (75 min)
+
+*Original practice problem.*
 
 Varnia and Ostrel are UN members and parties to the ICJ Statute, and both have accepted compulsory jurisdiction under Art 36(2) without reservations. For two years the Liberation Front of Eastern Ostrel (LFEO), an armed separatist group, has operated from camps in northern Varnia. Varnia's intelligence service paid LFEO salaries, provided rifles and drones, and a Varnian colonel sat on the LFEO 'strategic council', which sets annual objectives. In March, LFEO fighters crossed into Ostrel and shelled a town, killing 40 civilians. Varnia's President praised the attack on television as 'a legitimate act of liberation that Varnia fully stands behind'. Two weeks later Ostrel launched air strikes on LFEO camps and on a Varnian army depot 50 km from the border, without reporting to the Security Council. Ostrel also froze the assets of Varnia's central bank and suspended the bilateral air services treaty. Varnia says the strikes were aggression and that Ostrel must pay compensation. Advise Ostrel.
 
@@ -52,6 +175,8 @@ Varnia and Ostrel are UN members and parties to the ICJ Statute, and both have a
 
 ### The minister in Kelland (60 min)
 
+*Original practice problem.*
+
 General Dorn was Minister of Defence of Azeria until January. During his tenure Azerian forces tortured detainees from the Mirani minority, some of them nationals of Kelland. In February Dorn became Azeria's Foreign Minister. In June, while on an official visit to Kelland for a climate conference, he was arrested on a warrant issued by a Kellandic investigating judge for torture and crimes against humanity, based on Kelland's universal jurisdiction law and the Kellandic nationality of several victims. Separately, Mirani survivors are suing Azeria in Kelland's civil courts for damages, and the court has ordered the seizure of an Azerian State-owned airline's aircraft at Kelland airport. Kelland and Azeria are parties to the CAT. Azeria demands Dorn's immediate release and the lifting of the seizure. Advise Kelland.
 
 <details><summary>Issue checklist</summary>
@@ -67,6 +192,8 @@ General Dorn was Minister of Defence of Azeria until January. During his tenure 
 </details>
 
 ### Drought, a dam and a trade ban (60 min)
+
+*Original practice problem.*
 
 Under a 1995 treaty, Lacoria must release 40% of the River Sel's flow to downstream Brava. In 2026 an extreme drought, partly worsened by Lacoria's own decade of excessive irrigation, threatened Lacoria's capital with water shortages. Lacoria cut releases to 10% for eight months. Brava's farmers lost their harvest. In response, Brava (a) banned imports of all Lacorian agricultural products, claiming they are produced with water 'stolen' from Brava, and (b) refused to repay a sovereign loan instalment owed to Lacoria. Both are WTO members. Brava says Lacoria must restore the flow and pay for the lost harvest; Lacoria says it acted out of necessity and that Brava's ban violates the GATT. Advise both sides briefly, then give your view.
 
@@ -84,6 +211,8 @@ Under a 1995 treaty, Lacoria must release 40% of the River Sel's flow to downstr
 
 ### Standing for the Rokai (45 min)
 
+*Original practice problem.*
+
 Security forces in Tessia are carrying out mass killings and forced deportations of the Rokai, an ethnic minority. A UN fact-finding mission finds 'reasonable grounds' that genocidal intent may be present. Delmar, a small State with no Rokai nationals and no ties to Tessia, wants to bring a case before the ICJ under the Genocide Convention (both are parties, and Tessia has no reservation to Art IX). Delmar also wants to impose a ban on Tessian State officials' assets and suspend a bilateral investment treaty with Tessia. Advise Delmar on (1) its standing and what it can ask for, and (2) whether its unilateral measures are lawful.
 
 <details><summary>Issue checklist</summary>
@@ -99,6 +228,8 @@ Security forces in Tessia are carrying out mass killings and forced deportations
 
 ### The Republic of Esmera and the Lake Varo treaty (60 min)
 
+*Original practice problem.*
+
 In 2019 the eastern province of the State of Moria declared independence as the Republic of Esmera after a referendum boycotted by the non-Esmeran minority. Neighbouring Tarsis, whose troops had entered the province weeks before the referendum 'to protect ethnic Tarsians', recognised Esmera immediately; eleven other States followed by 2024. Esmera has a functioning administration, but its budget, currency and border security depend on Tarsis. In 2021 Esmera's Deputy Minister of Water signed a 'Memorandum on Lake Varo' with Moria's Ministry of Environment, under which each side 'shall' limit irrigation withdrawals to 30% of inflow; it states it 'enters into force upon signature' and was registered by Moria with the UN Secretariat. Esmera's constitution requires parliamentary approval for international agreements, which was never sought, and Esmera never protested the registration. In 2023 Esmera acceded to the 1997 UN Watercourses Convention with a reservation 'excluding Article 7 (no significant harm) in its entirety'; Moria objected but did not oppose the Convention's entry into force between them. In 2025, during a drought, Esmera tripled withdrawals and announced it was 'terminating' the Memorandum because of 'a fundamental change in climatic circumstances'. Moria asks whether Esmera is bound and has breached its obligations. Advise Moria.
 
 <details><summary>Issue checklist</summary>
@@ -113,7 +244,9 @@ In 2019 the eastern province of the State of Moria declared independence as the 
 
 </details>
 
-## Practice essay questions
+## Essay questions
+
+★ marks questions from the official sample and past papers.
 
 1. 'Article 2(4) is dead.' Assess this claim with reference to recent uses of force (2022–2026) and the three responses discussed in the Week 7 lecture. Does it matter?
 2. Does the ICJ's finding in Nicaragua that there is 'no general right of intervention' in support of an opposition still reflect international law today?

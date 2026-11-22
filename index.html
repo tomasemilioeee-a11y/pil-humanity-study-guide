@@ -505,7 +505,7 @@ select{appearance:none;-webkit-appearance:none;min-height:44px;border:1px solid 
     else {
       const c = C[course];
       if (route.mode === "topic") { const t = c.topics.find(x => x.id === route.id); if (t) { el = topicView(course, t); title = t.week; back = `${course}`; } }
-      else if (route.mode === "problem") { const p = c.problems.find(x => x.id === route.id); if (p) { el = problemView(course, p); title = "Practice problem"; back = `${course}/problems`; } }
+      else if (route.mode === "problem") { const p = c.problems.find(x => x.id === route.id); if (p) { el = problemView(course, p); title = "Problem"; back = `${course}/problems`; } }
       else if (route.mode === "essay") { const i = Number(route.id); if (c.essays[i]) { el = essayView(course, i); title = "Essay"; back = `${course}/essays`; } }
       if (!el) { el = courseView(course, route.mode); title = SHORT[course]; }
     }
@@ -548,9 +548,9 @@ select{appearance:none;-webkit-appearance:none;min-height:44px;border:1px solid 
         h("ol", { class: "rules read", style: "margin-top:10px" },
           h("li", {}, "Open a topic, read the rules, then the key passages: those are the paragraphs worth quoting."),
           h("li", {}, "Test yourself with the cards at the bottom of each topic, or the Test tab for a whole course."),
-          h("li", {}, "Write at least one practice problem per course under time, then compare with the issue checklist."),
+          h("li", {}, "Write the official problems (★) under time, then compare with the checklist or the summarised key."),
           h("li", {}, "Outline two essays in 20 minutes each: thesis, three points with authority, a critical conclusion."))),
-      h("p", { class: "foot" }, "Not official course material. Official sample exams, answer keys and recordings are on Brightspace and are not reproduced here. Images: Wikimedia Commons, credited under each picture. Gambia v Myanmar passages checked against the ICJ judgment of 19 Nov 2026."));
+      h("p", { class: "foot" }, "Not official course material. Official sample and past exam questions are retold in our own words with the keys summarised; the original papers and recordings are on Brightspace. Images: Wikimedia Commons, credited under each picture. Gambia v Myanmar passages checked against the ICJ judgment of 19 Nov 2026."));
   }
 
   const MODES = [["topics", "Topics"], ["test", "Test"], ["problems", "Problems"], ["essays", "Essays"], ["format", "Format"]];
@@ -633,9 +633,9 @@ select{appearance:none;-webkit-appearance:none;min-height:44px;border:1px solid 
   function problemList(id) {
     const c = C[id];
     return h("div", { class: "plist" },
-      h("p", { class: "lede" }, "Original practice problems in the style of the exam. Official sample papers are on Brightspace."),
+      h("p", { class: "lede" }, "Official sample and past exam questions first (retold in our own words, with the key summarised where there is one), then original practice problems."),
       c.problems.map(p => h("button", { class: "pcard", onclick: () => go(`${id}/problem/${p.id}`) },
-        h("span", { class: "meta" }, h("span", { class: "chip" }, "Practice"), h("span", { class: "chip" }, icon("clock"), `${p.minutes} min`)),
+        h("span", { class: "meta" }, p.official ? h("span", { class: "chip official" }, icon("star"), /past exam|March 2026/i.test(p.source) ? "Past exam" : "Official sample") : h("span", { class: "chip" }, "Practice"), h("span", { class: "chip" }, icon("clock"), `${p.minutes} min`)),
         h("h3", {}, p.title), h("p", {}, p.prompt))));
   }
   function problemView(id, p) {
@@ -653,10 +653,11 @@ select{appearance:none;-webkit-appearance:none;min-height:44px;border:1px solid 
     tb.addEventListener("click", () => { if (timer) { clearInterval(timer); timer = null; tb.lastChild.textContent = "Resume"; } else { timer = setInterval(() => { if (!document.body.contains(tEl)) { clearInterval(timer); return; } elapsed++; paint(); }, 1000); tb.lastChild.textContent = "Pause"; } });
     paint();
     return h("div", { class: "stack" },
-      h("section", { class: "t-hero" }, h("div", { class: "row", style: "gap:6px" }, h("span", { class: "chip" }, "Practice problem"), h("span", { class: "chip" }, icon("clock"), `${p.minutes} min`)), h("h1", {}, p.title)),
+      h("section", { class: "t-hero" }, h("div", { class: "row", style: "gap:6px" }, p.official ? h("span", { class: "chip official" }, icon("star"), /past exam|March 2026/i.test(p.source) ? "Past exam" : "Official sample") : h("span", { class: "chip" }, "Practice problem"), h("span", { class: "chip" }, icon("clock"), `${p.minutes} min`)), h("h1", {}, p.title),
+        p.official ? h("p", { class: "note", style: "margin:6px 0 0" }, `${p.source}. Retold in our own words; the original paper is on Brightspace.`) : null),
       sec("s-facts", "The facts", null, true, h("div", { class: "factsbox" }, p.prompt)),
       h("div", { class: "timerbar" }, tEl, wc, tb), ta,
-      sec("s-key", "Issue checklist (open after writing)", p.issues.length, false, h("ol", { class: "issues" }, p.issues.map(i => h("li", {}, i)))));
+      sec("s-key", p.issues.some(i => /OFFICIAL KEY/.test(i)) ? "Official marking key, summarised (open after writing)" : "Issue checklist (open after writing)", p.issues.length, false, h("ol", { class: "issues" }, p.issues.map(i => h("li", {}, i)))));
   }
   function essayList(id) {
     const c = C[id];
@@ -665,7 +666,7 @@ select{appearance:none;-webkit-appearance:none;min-height:44px;border:1px solid 
       c.essays.map((e, i) => {
         const m = e.match(/\[(.+?)\]\s*$/), tag = m ? m[1] : null, text = m ? e.replace(/\s*\[.+?\]\s*$/, "") : e;
         return h("button", { class: "pcard", onclick: () => go(`${id}/essay/${i}`) },
-          h("span", { class: "meta" }, h("span", { class: "chip" }, tag || `Essay ${i + 1}`)),
+          h("span", { class: "meta" }, tag && /official|sample/i.test(tag) ? h("span", { class: "chip official" }, icon("star"), tag) : h("span", { class: "chip" }, tag || `Essay ${i + 1}`)),
           h("p", { style: "-webkit-line-clamp:4;font-family:var(--f-read);font-size:17px;color:var(--ink)" }, text));
       }));
   }
