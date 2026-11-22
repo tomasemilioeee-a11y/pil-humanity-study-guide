@@ -692,7 +692,7 @@ select{appearance:none;-webkit-appearance:none;min-height:44px;border:1px solid 
   }
 
   // ---------- boot ----------
-  Promise.all(["data/pil.json", "data/ph.json"].map(f => fetch(f).then(r => { if (!r.ok) throw new Error(f); return r.json(); })))
+  Promise.all(["data/pil.json", "data/ph.json"].map(f => fetch(f + "?v=1795390572779").then(r => { if (!r.ok) throw new Error(f); return r.json(); })))
     .then(([pil, ph]) => { C.pil = pil; C.ph = ph; render(true); })
     .catch(() => { $("#view").innerHTML = '<div class="empty">Couldn\'t load the guide data. Reload the page to try again.</div>'; });
 })();
