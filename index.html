@@ -19,6 +19,7 @@
   --good:#1B7649; --good-soft:#DCF0E5; --warn:#8C5D00; --warn-soft:#FAEDCC; --bad:#B0372A; --bad-soft:#F8E0DC;
   --marker:#FFE36A; --marker-ink:#2A2200;
   --gold:#8A5A00; --gold-rule:#D4A53C; --paper:#FBF6EA; --paper-line:#EADCB9;
+  --mm-src:#3D4FB8; --mm-scope:#0F7A75; --mm-sd:#B3263E; --mm-sc:#1D6FB8; --mm-consent:#2E7D32; --mm-contest:#A65A00; --mm-agg:#7B2D8E; --mm-debate:#4A5568;
   --on-accent:#FFFFFF;
   --hero-pil:radial-gradient(110% 90% at 100% 0%,rgba(94,234,212,.30) 0%,transparent 55%),linear-gradient(150deg,#2F55E4 0%,#1B2E95 58%,#131D5C 100%);
   --hero-ph:radial-gradient(110% 90% at 100% 0%,rgba(255,166,107,.32) 0%,transparent 55%),linear-gradient(150deg,#B42F6C 0%,#701B48 58%,#42102C 100%);
@@ -36,6 +37,7 @@
   --good:#63D099; --good-soft:#12301F; --warn:#EAB95A; --warn-soft:#33280F; --bad:#F28E80; --bad-soft:#3A1A16;
   --marker:rgba(255,214,86,.20); --marker-ink:#FFE7A0;
   --gold:#E6B85C; --gold-rule:#B98A2E; --paper:#1D1A13; --paper-line:#3A3220;
+  --mm-src:#97A4FF; --mm-scope:#4FD1C5; --mm-sd:#FF8FA0; --mm-sc:#6CB6FF; --mm-consent:#7BD88F; --mm-contest:#F5B456; --mm-agg:#D69AF0; --mm-debate:#B4BFD0;
   --on-accent:#0B0E15;
   --hero-pil:radial-gradient(110% 90% at 100% 0%,rgba(94,234,212,.20) 0%,transparent 55%),linear-gradient(150deg,#2A3F95 0%,#17215A 60%,#0F1536 100%);
   --hero-ph:radial-gradient(110% 90% at 100% 0%,rgba(255,166,107,.20) 0%,transparent 55%),linear-gradient(150deg,#7A2559 0%,#45163A 60%,#250C1F 100%);
@@ -48,6 +50,7 @@
   --good:#63D099; --good-soft:#12301F; --warn:#EAB95A; --warn-soft:#33280F; --bad:#F28E80; --bad-soft:#3A1A16;
   --marker:rgba(255,214,86,.20); --marker-ink:#FFE7A0;
   --gold:#E6B85C; --gold-rule:#B98A2E; --paper:#1D1A13; --paper-line:#3A3220;
+  --mm-src:#97A4FF; --mm-scope:#4FD1C5; --mm-sd:#FF8FA0; --mm-sc:#6CB6FF; --mm-consent:#7BD88F; --mm-contest:#F5B456; --mm-agg:#D69AF0; --mm-debate:#B4BFD0;
   --on-accent:#0B0E15;
   --hero-pil:radial-gradient(110% 90% at 100% 0%,rgba(94,234,212,.20) 0%,transparent 55%),linear-gradient(150deg,#2A3F95 0%,#17215A 60%,#0F1536 100%);
   --hero-ph:radial-gradient(110% 90% at 100% 0%,rgba(255,166,107,.20) 0%,transparent 55%),linear-gradient(150deg,#7A2559 0%,#45163A 60%,#250C1F 100%);
@@ -284,6 +287,20 @@ select{appearance:none;-webkit-appearance:none;min-height:44px;border:1px solid 
 .vis .credit a{color:inherit}
 .gcount{font-family:var(--f-mono);font-size:11.5px;color:var(--ink-3);text-align:right;margin-top:-4px}
 
+/* mind map link card */
+.mmcard{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:14px;row-gap:3px;align-items:center;text-decoration:none;color:var(--ink);background:var(--surface);
+  border-radius:var(--r);box-shadow:var(--shadow);padding:16px;border:1px solid color-mix(in srgb,var(--accent) 24%,transparent);transition:transform .12s ease}
+.mmcard:active{transform:scale(.99)}
+.mmcard .eyebrow{color:var(--accent)}
+.mm-glyph{grid-column:2;grid-row:1 / span 3;display:block;width:72px;height:72px}
+.mm-glyph svg{display:block}
+.mm-title{font-family:var(--f-read);font-weight:500;font-size:21px;line-height:1.2;text-wrap:balance}
+.mm-blurb{font-size:14px;line-height:1.45;color:var(--ink-2)}
+.mm-chips{grid-column:1 / -1;display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.mm-chips span{font-size:12px;font-weight:600;padding:3px 9px;border-radius:999px;color:var(--ink-2);background:color-mix(in srgb,var(--c) 12%,var(--surface));border:1px solid color-mix(in srgb,var(--c) 36%,transparent)}
+.mm-go{grid-column:1 / -1;margin-top:12px;min-height:46px;border-radius:12px;background:var(--accent);color:var(--on-accent);font-weight:600;font-size:15.5px;display:flex;align-items:center;justify-content:center;gap:8px}
+.mm-go svg{width:18px;height:18px}
+
 /* key passages: judgment paragraphs and treaty text, set like a page of the report */
 .passages{display:grid;gap:14px}
 .psg{position:relative;margin:0;border-radius:14px;background:var(--paper);border:1px solid var(--paper-line);padding:14px 14px 12px 18px;display:grid;gap:8px}
@@ -459,6 +476,22 @@ select{appearance:none;-webkit-appearance:none;min-height:44px;border:1px solid 
           h("span", { class: "credit" }, `${v.credit.artist} · ${v.credit.license} · `, h("a", { href: v.credit.page, target: "_blank", rel: "noopener" }, "Wikimedia Commons ↗"))))));
     return vs.length > 1 ? h("div", {}, strip, h("div", { class: "gcount", "aria-hidden": "true" }, `${vs.length} images · swipe`)) : strip;
   }
+  function mindmapCard(t) {
+    const m = t.mindmap;
+    if (!m) return null;
+    const n = m.branches.length;
+    const spokes = m.branches.map((b, i) => {
+      const a = i / n * Math.PI * 2 - Math.PI / 2, x = (36 + Math.cos(a) * 25).toFixed(1), y = (36 + Math.sin(a) * 25).toFixed(1);
+      return `<line x1="36" y1="36" x2="${x}" y2="${y}" style="stroke:var(--mm-${b.c})" stroke-width="2.2" stroke-linecap="round"/><circle cx="${x}" cy="${y}" r="5.5" style="fill:var(--mm-${b.c})"/>`;
+    }).join("");
+    return h("a", { class: "mmcard", href: m.href, "aria-label": `Open the mind map: ${m.title}` },
+      h("span", { class: "eyebrow" }, "Mind map"),
+      h("span", { class: "mm-glyph", "aria-hidden": "true", html: `<svg viewBox="0 0 72 72" width="72" height="72">${spokes}<circle cx="36" cy="36" r="10" style="fill:var(--accent)"/></svg>` }),
+      h("span", { class: "mm-title" }, m.title),
+      h("span", { class: "mm-blurb" }, m.blurb),
+      h("span", { class: "mm-chips", "aria-hidden": "true" }, m.branches.map(b => h("span", { style: `--c:var(--mm-${b.c})` }, b.t))),
+      h("span", { class: "mm-go", "aria-hidden": "true" }, "Open the mind map", icon("arrow")));
+  }
   function passage(x) {
     const para = (x.cite.match(/paras? ([\d()]+(?:[–-]\d+)?)/) || [])[1];
     const page = (x.cite.match(/\bp (\d+)/) || [])[1];
@@ -569,7 +602,7 @@ select{appearance:none;-webkit-appearance:none;min-height:44px;border:1px solid 
       return h("button", { class: "file" + (th ? " has-thumb" : ""), "data-tab": t.week, onclick: () => go(`${id}/topic/${t.id}`), "aria-label": `${t.week}: ${t.title}` },
         th ? h("img", { class: "thumb", src: th.src, alt: "", loading: "lazy", decoding: "async", style: th.pos ? `object-position:${th.pos}` : null }) : null,
         h("h3", {}, t.title),
-        h("span", { class: "facts" }, [`${t.core.length} rules`, `${t.cases.length} cases`, t.excerpts && t.excerpts.length ? `${t.excerpts.length} key passages` : null, `${t.cards.length} cards`].filter(Boolean).map(x => h("span", {}, x))),
+        h("span", { class: "facts" }, [`${t.core.length} rules`, `${t.cases.length} cases`, t.excerpts && t.excerpts.length ? `${t.excerpts.length} key passages` : null, `${t.cards.length} cards`, t.mindmap ? "mind map" : null].filter(Boolean).map(x => h("span", {}, x))),
         h("span", { class: "barrow" }, h("span", { class: "bar" }, h("i", { style: `width:${t.cards.length ? Math.round(k / t.cards.length * 100) : 0}%` })), `${k}/${t.cards.length} known`));
     }));
   }
@@ -592,7 +625,7 @@ select{appearance:none;-webkit-appearance:none;min-height:44px;border:1px solid 
       h("section", { class: "t-hero" },
         h("div", { class: "eyebrow" }, `${t.week} · ${NAME[id]}`),
         h("h1", {}, t.title)),
-      gallery(t), jumpBar, ...sections,
+      gallery(t), mindmapCard(t), jumpBar, ...sections,
       nx ? h("button", { class: "card", style: "text-align:left;display:flex;align-items:center;gap:12px", onclick: () => go(`${id}/topic/${nx.id}`) },
         h("span", { style: "flex:1" }, h("span", { class: "eyebrow" }, "Next topic · " + nx.week), h("span", { style: "display:block;font-family:var(--f-read);font-size:19px;margin-top:2px" }, nx.title)), icon("chev")) : null);
     return root;
@@ -692,7 +725,7 @@ select{appearance:none;-webkit-appearance:none;min-height:44px;border:1px solid 
   }
 
   // ---------- boot ----------
-  Promise.all(["data/pil.json", "data/ph.json"].map(f => fetch(f + "?v=1795390572779").then(r => { if (!r.ok) throw new Error(f); return r.json(); })))
+  Promise.all(["data/pil.json", "data/ph.json"].map(f => fetch(f + "?v=1795650725308").then(r => { if (!r.ok) throw new Error(f); return r.json(); })))
     .then(([pil, ph]) => { C.pil = pil; C.ph = ph; render(true); })
     .catch(() => { $("#view").innerHTML = '<div class="empty">Couldn\'t load the guide data. Reload the page to try again.</div>'; });
 })();

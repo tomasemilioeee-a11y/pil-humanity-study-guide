@@ -5,7 +5,9 @@ A student-made revision guide for the two LL.M finals:
 - **Public International Law**: Mon 30 Nov · 09:00–12:00 · USC Hall 2. Closed book, typed on a university Chromebook with no internet. Only a clean hardcopy of Blackstone's International Law Documents (16th ed.) is allowed. Covers all weeks, 1–11 (the syllabus said 7–11; you confirmed the final covers everything). Know the cases and apply them; paragraph numbers are not needed.
 - **Protecting Humanity**: Wed 2 Dec · 09:00–12:00 · USC. Closed book, in person, three hours (Wed 2 Dec, 09:00–12:00, New USC). You may bring Blackstone's International Law Documents, a print-out of Heinsch's ICL Reader, the Geneva Conventions, APs I and II, and human rights treaties — clean copies only: highlighting allowed, no notes, tabs only with treaty names. Dictionaries allowed. Relevant ICL, IHL and IHRL instruments are also uploaded in ANS.
 
-**Read it as a website:** (link coming soon) (works well on a phone; add it to your Home Screen).
+**Read it as a website:** https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/ (works well on a phone; add it to your Home Screen).
+
+**Mind map:** [The prohibition of the use of force](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/use-of-force.html), interactive, with recall mode and search.
 
 Inside: 371 rules to know cold, 172 cases, 43 key passages quoted from judgments and treaties, 239 self-test cards, 17 problem questions (9 from the official sample and past papers, with issue checklists and the summarised March 2026 marking key) and 40 essay questions (10 from the official papers).
 

@@ -12,6 +12,8 @@
 *The UN Security Council chamber, New York.* Chapter VII: Art 39 determination, then Art 41 or 42 measures; authorisation by 'all necessary means'.  
 <sub>Jdforrester · CC BY 4.0 · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:United_Nations_Headquarters_-_Security_Council_chamber,_straight-on_view.jpg)</sub>
 
+**Mind map:** [The prohibition of the use of force](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/use-of-force.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. Art 2(4) UN Charter prohibits the threat or use of force against the territorial integrity or political independence of any State. It is also customary law (Nicaragua) and widely regarded as jus cogens.

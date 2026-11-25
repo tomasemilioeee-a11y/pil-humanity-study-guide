@@ -1,0 +1,710 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font-size:14px}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Use of Force Mind Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
+<style>
+/* Layout: a two-sided mind map radiating from Art 2(4) on wide screens (four branches each side, curved wires),
+   a vertical outline tree of branch cards on phones. Tap a topic for its rule, authorities and key quote; ± opens a branch. */
+:root{
+  --bg:#F4F2EE; --surface:#FFFFFF; --surface-2:#EEEBE5; --ink:#15171F; --ink-2:#4A4F5C; --ink-3:#676C78; --line:#E2DED6;
+  --hub-1:#2F55E4; --hub-2:#1B2E95; --hub-3:#131D5C; --on-hub:#FFFFFF; --on-hub-2:rgba(255,255,255,.80);
+  --src:#3D4FB8; --scope:#0F7A75; --sd:#B3263E; --sc:#1D6FB8; --consent:#2E7D32; --contest:#A65A00; --agg:#7B2D8E; --debate:#4A5568;
+  --on-b:#FFFFFF;
+  --paper:#FBF6EA; --paper-line:#EADCB9; --gold:#8A5A00; --gold-rule:#D4A53C; --hit:#FFD84D;
+  --scrim:rgba(20,16,8,.28);
+  --shadow:0 1px 2px rgba(30,24,12,.06),0 10px 26px -16px rgba(30,24,12,.30);
+  --f-ui:"Instrument Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+  --f-read:"Newsreader",Charter,"Iowan Old Style",Georgia,serif;
+  --f-mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,monospace;
+  --gut-l:max(16px,env(safe-area-inset-left,0px)); --gut-r:max(16px,env(safe-area-inset-right,0px));
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0C0E14; --surface:#151924; --surface-2:#1C2130; --ink:#E9EDF4; --ink-2:#A3ADC0; --ink-3:#8590A3; --line:#262D3C;
+  --hub-1:#2A3F95; --hub-2:#17215A; --hub-3:#0F1536; --on-hub:#F1F4FA; --on-hub-2:rgba(241,244,250,.76);
+  --src:#97A4FF; --scope:#4FD1C5; --sd:#FF8FA0; --sc:#6CB6FF; --consent:#7BD88F; --contest:#F5B456; --agg:#D69AF0; --debate:#B4BFD0;
+  --on-b:#0C0E14;
+  --paper:#1D1A13; --paper-line:#3A3220; --gold:#E6B85C; --gold-rule:#B98A2E; --hit:rgba(255,214,86,.55);
+  --scrim:rgba(0,0,0,.5);
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px -14px rgba(0,0,0,.7);
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0C0E14; --surface:#151924; --surface-2:#1C2130; --ink:#E9EDF4; --ink-2:#A3ADC0; --ink-3:#8590A3; --line:#262D3C;
+  --hub-1:#2A3F95; --hub-2:#17215A; --hub-3:#0F1536; --on-hub:#F1F4FA; --on-hub-2:rgba(241,244,250,.76);
+  --src:#97A4FF; --scope:#4FD1C5; --sd:#FF8FA0; --sc:#6CB6FF; --consent:#7BD88F; --contest:#F5B456; --agg:#D69AF0; --debate:#B4BFD0;
+  --on-b:#0C0E14;
+  --paper:#1D1A13; --paper-line:#3A3220; --gold:#E6B85C; --gold-rule:#B98A2E; --hit:rgba(255,214,86,.55);
+  --scrim:rgba(0,0,0,.5);
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px -14px rgba(0,0,0,.7);
+  color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--bg)}
+button,input{font:inherit;color:inherit}
+button{cursor:pointer;background:none;border:0;padding:0}
+:focus-visible{outline:2.5px solid var(--hub-1);outline-offset:2px;border-radius:10px}
+ul,ol{list-style:none;margin:0;padding:0}
+h1,h2,h3{margin:0;text-wrap:balance}
+.sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+.wrap{padding-left:var(--gut-l);padding-right:var(--gut-r);padding-block:22px 56px}
+.head{max-width:780px;margin:0 auto;display:grid;gap:8px}
+.back{justify-self:start;display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:0 14px;margin-bottom:6px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-weight:600;font-size:14px;color:var(--ink);text-decoration:none}
+.eyebrow{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
+.head h1{font-family:var(--f-read);font-weight:500;font-size:clamp(31px,6vw,48px);line-height:1.05;letter-spacing:-.015em}
+.lede{margin:0;font-family:var(--f-read);font-size:18px;line-height:1.5;color:var(--ink-2);max-width:62ch;text-wrap:pretty}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:4px;font-size:13px;color:var(--ink-2)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:10px;height:10px;border-radius:3px;background:var(--c);display:inline-block}
+
+/* toolbar */
+.toolbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;margin:16px calc(-1 * var(--gut-r)) 0 calc(-1 * var(--gut-l));padding:10px var(--gut-r) 10px var(--gut-l);
+  background:color-mix(in srgb,var(--bg) 88%,transparent);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid color-mix(in srgb,var(--line) 80%,transparent)}
+.tools{max-width:1100px;margin:0 auto;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.search{position:relative;flex:1 1 220px;min-width:0}
+.search svg{position:absolute;left:11px;top:50%;width:17px;height:17px;transform:translateY(-50%);color:var(--ink-3);pointer-events:none}
+.search input{width:100%;min-height:42px;border-radius:12px;border:1px solid var(--line);background:var(--surface);padding:0 12px 0 36px;font-size:15px}
+.search input:focus{outline:none;border-color:var(--hub-1);box-shadow:0 0 0 3px color-mix(in srgb,var(--hub-1) 22%,transparent)}
+.search input:disabled{opacity:.5}
+.seg{display:inline-flex;gap:2px;padding:3px;border-radius:12px;background:var(--surface-2)}
+.seg button{min-height:36px;padding:0 11px;border-radius:9px;font-weight:600;font-size:13.5px;color:var(--ink-2);white-space:nowrap}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.14)}
+.btn{min-height:42px;padding:0 14px;border-radius:12px;border:1px solid var(--line);background:var(--surface);font-weight:600;font-size:14px;white-space:nowrap}
+.btn[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.status{flex:1 0 100%;font-family:var(--f-mono);font-size:12px;color:var(--ink-3);min-height:1em}
+@media (max-width:599px){.toolbar{position:static}}
+.status button{font-family:var(--f-ui);font-weight:600;font-size:13px;color:var(--hub-1);text-decoration:underline;margin-left:8px}
+
+/* map */
+.stage{position:relative;overflow-x:auto;margin:0 calc(-1 * var(--gut-r)) 0 calc(-1 * var(--gut-l));padding:0 var(--gut-r) 0 var(--gut-l);-webkit-overflow-scrolling:touch}
+.map{position:relative}
+.map.radial{display:grid;grid-template-columns:auto auto auto;grid-template-areas:"left hub right";align-items:center;column-gap:36px;width:max-content;min-width:100%;justify-content:center;padding:30px 6px 40px}
+.wires{position:absolute;left:0;top:0;pointer-events:none;overflow:visible;z-index:0}
+.wires path{fill:none;stroke-linecap:round;opacity:.72}
+.side{display:flex;flex-direction:column;gap:20px;position:relative;z-index:1}
+.radial .side.right{grid-area:right;align-items:flex-start}
+.radial .side.left{grid-area:left;align-items:flex-end}
+.radial .hubnode{grid-area:hub}
+.radial .bn{display:flex;align-items:center;gap:28px}
+.radial .left .bn,.radial .left .nd{flex-direction:row-reverse}
+.radial .kids{display:flex;flex-direction:column;gap:8px}
+.radial .left .kids{align-items:flex-end}
+.nd{display:flex;align-items:center;gap:6px;position:relative;z-index:1}
+
+.lbl{display:grid;gap:2px;text-align:left;border-radius:12px;padding:7px 11px;font-weight:600;font-size:14px;line-height:1.25;color:var(--ink);background:var(--surface);
+  border:1px solid var(--line);max-width:214px;transition:transform .12s ease,box-shadow .2s ease,opacity .2s ease}
+.lbl:hover{box-shadow:var(--shadow)}
+.lbl:active{transform:scale(.98)}
+.lbl .cite{font-family:var(--f-mono);font-weight:500;font-size:11px;line-height:1.3;color:var(--ink-3)}
+.d1>.nd>.lbl{background:var(--c);color:var(--on-b);border-color:transparent;font-size:15.5px;padding:10px 14px;border-radius:14px;max-width:184px;box-shadow:var(--shadow)}
+.d2>.nd>.lbl{background:color-mix(in srgb,var(--c) 12%,var(--surface));border-color:color-mix(in srgb,var(--c) 40%,transparent)}
+.d3>.nd>.lbl,.d4>.nd>.lbl{font-weight:500;font-size:13.5px;color:var(--ink-2);max-width:236px}
+.tg{flex:0 0 auto;min-width:30px;height:30px;padding:0 7px;border-radius:999px;border:1.5px solid var(--c);background:var(--surface);color:var(--c);font-family:var(--f-mono);font-weight:500;font-size:11.5px}
+.tg[aria-expanded="true"]{background:var(--c);color:var(--on-b)}
+
+.hubnode{position:relative;z-index:1;width:240px;text-align:left;border-radius:22px;padding:18px 18px 16px;color:var(--on-hub);display:grid;gap:6px;box-shadow:var(--shadow);
+  background:radial-gradient(110% 90% at 100% 0%,rgba(94,234,212,.30) 0%,transparent 55%),linear-gradient(150deg,var(--hub-1) 0%,var(--hub-2) 58%,var(--hub-3) 100%)}
+.hubnode .k{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--on-hub-2)}
+.hubnode .h{font-family:var(--f-read);font-weight:500;font-size:27px;line-height:1.06}
+.hubnode .s{font-size:13px;color:var(--on-hub-2)}
+
+/* phone: outline tree */
+.map.vertical{display:grid;gap:14px;padding:14px 0 30px;max-width:720px;margin:0 auto}
+.vertical .hubnode{width:auto}
+.vertical .side{gap:14px}
+.vertical .bn.d1{background:var(--surface);border-radius:18px;padding:12px;box-shadow:var(--shadow)}
+.vertical .nd>.lbl{flex:1;max-width:none}
+.vertical .kids{display:grid;gap:6px;margin:8px 0 0 13px;padding-left:15px;border-left:2px solid color-mix(in srgb,var(--c) 42%,transparent)}
+.vertical .kids>.bn{position:relative}
+.vertical .kids>.bn::before{content:"";position:absolute;left:-15px;top:19px;width:11px;border-top:2px solid color-mix(in srgb,var(--c) 42%,transparent)}
+
+/* recall and search states */
+.recall .lbl.veil .t,.recall .lbl.veil .cite{color:transparent;text-shadow:0 0 9px color-mix(in srgb,var(--ink) 60%,transparent)}
+.recall .lbl.veil{-webkit-user-select:none;user-select:none}
+.searching .lbl{opacity:.36}
+.searching .lbl.hit,.searching .lbl.path{opacity:1}
+.lbl.hit{box-shadow:0 0 0 3px var(--hit)}
+
+/* detail sheet */
+.scrim{position:fixed;inset:0;z-index:39;background:var(--scrim)}
+.sheet{position:fixed;z-index:40;background:var(--surface);color:var(--ink);display:flex;flex-direction:column;box-shadow:0 -12px 40px -12px rgba(0,0,0,.4);transition:transform .22s ease;
+  left:0;right:0;bottom:0;max-height:80vh;border-radius:22px 22px 0 0;transform:translateY(105%);
+  padding:10px var(--gut-r) calc(18px + env(safe-area-inset-bottom,0px)) var(--gut-l)}
+.sheet.open{transform:none}
+.sheet .grab{width:42px;height:5px;border-radius:5px;background:var(--line);margin:0 auto 6px}
+.sheet .top{display:flex;align-items:flex-start;gap:10px}
+.sheet .crumbs{flex:1;font-family:var(--f-mono);font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--c);padding-top:10px}
+.sheet .x{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;color:var(--ink-2);flex:0 0 auto}
+.sheet .x svg{width:22px;height:22px}
+.sheet .scroll{overflow-y:auto;display:grid;gap:14px;padding:2px 2px 4px;overscroll-behavior:contain}
+.sheet h2{font-family:var(--f-read);font-weight:500;font-size:27px;line-height:1.12;letter-spacing:-.01em}
+.sheet .body{margin:0;font-family:var(--f-read);font-size:17.5px;line-height:1.55;text-wrap:pretty}
+.quote{position:relative;margin:0;border-radius:14px;background:var(--paper);border:1px solid var(--paper-line);padding:12px 14px 12px 18px;display:grid;gap:6px}
+.quote::before{content:"";position:absolute;left:0;top:12px;bottom:12px;width:4px;border-radius:0 4px 4px 0;background:var(--gold-rule)}
+.quote blockquote{margin:0;font-family:var(--f-read);font-size:17px;line-height:1.55}
+.quote figcaption{font-family:var(--f-mono);font-size:11.5px;color:var(--gold)}
+.lab{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin-bottom:6px}
+.auths{display:flex;flex-wrap:wrap;gap:6px}
+.auths li{font-family:var(--f-mono);font-size:12px;line-height:1.35;padding:5px 9px;border-radius:8px;background:var(--surface-2);color:var(--ink-2)}
+.subs{display:grid;gap:4px}
+.subs button{width:100%;text-align:left;min-height:40px;padding:8px 10px;border-radius:10px;background:color-mix(in srgb,var(--c) 10%,var(--surface));font-weight:600;font-size:14.5px;display:flex;justify-content:space-between;gap:8px;align-items:center}
+.subs button::after{content:"›";color:var(--c);font-size:18px;line-height:1}
+@media (min-width:900px){
+  .sheet{left:auto;top:0;width:410px;max-height:none;border-radius:0;transform:translateX(105%);box-shadow:-12px 0 40px -12px rgba(0,0,0,.35);
+    padding:calc(16px + env(safe-area-inset-top,0px)) calc(22px + env(safe-area-inset-right,0px)) 22px 22px}
+  .sheet .grab{display:none}
+}
+
+/* below the map */
+.after{max-width:1000px;margin:34px auto 0;display:grid;gap:30px}
+.after h2{font-family:var(--f-read);font-weight:500;font-size:clamp(24px,4vw,30px);line-height:1.15}
+.after .sub{margin:4px 0 0;color:var(--ink-2);font-size:15px}
+.route{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));margin-top:14px;counter-reset:step}
+.route li{background:var(--surface);border-radius:16px;box-shadow:var(--shadow);padding:14px 16px 16px;display:grid;gap:4px;counter-increment:step;min-width:0}
+.route li::before{content:counter(step);font-family:var(--f-mono);font-size:12px;color:var(--hub-1);font-weight:500}
+.route b{font-size:16px}
+.route p{margin:0;font-size:14.5px;color:var(--ink-2);line-height:1.5}
+.cites{display:grid;gap:0;margin-top:12px;background:var(--surface);border-radius:16px;box-shadow:var(--shadow);padding:4px 16px}
+.cites div{display:grid;grid-template-columns:minmax(0,210px) minmax(0,1fr);gap:4px 16px;padding:11px 0;border-top:1px solid var(--line)}
+.cites div:first-child{border-top:0}
+.cites dt{font-family:var(--f-mono);font-size:12.5px;color:var(--ink);font-weight:500}
+.cites dd{margin:0;font-size:14.5px;color:var(--ink-2)}
+@media (max-width:560px){.cites div{grid-template-columns:1fr}}
+.foot{max-width:760px;margin:30px auto 0;font-size:13px;color:var(--ink-3);text-align:center;text-wrap:pretty}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header class="head">
+    <a class="back" id="backLink" href="../#pil/topic/pil-force">‹ Back to the study guide</a>
+    <div class="eyebrow">Public International Law · Week 7 · Jus ad bellum</div>
+    <h1>The prohibition of the use of force</h1>
+    <p class="lede">Art 2(4) at the centre: where the rule comes from, what it covers, the two Charter exceptions, consent, the contested claims and what follows a breach. Tap any topic for the rule, the authorities and the key quote.</p>
+    <div class="legend" id="legend" aria-hidden="true"></div>
+  </header>
+
+  <div class="toolbar">
+    <div class="tools">
+      <label class="search" for="q"><span class="sr">Search the map</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+        <input id="q" type="search" placeholder="Search a case, article or idea" autocomplete="off">
+      </label>
+      <div class="seg" role="group" aria-label="How much to show">
+        <button type="button" id="lvBranches" data-lv="branches">Branches</button>
+        <button type="button" id="lvOverview" data-lv="overview">Overview</button>
+        <button type="button" id="lvAll" data-lv="all">Everything</button>
+      </div>
+      <button type="button" class="btn" id="recallBtn" aria-pressed="false">Recall mode</button>
+      <div class="status" id="status" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <div class="stage" id="stage"><div class="map" id="map"></div></div>
+
+  <div class="after">
+    <section aria-labelledby="routeH">
+      <h2 id="routeH">Answering a problem question</h2>
+      <p class="sub">Work through each act in this order.</p>
+      <ol class="route">
+        <li><b>Map the facts</b><p>List each act, who did it and when. Separate incidents need separate answers.</p></li>
+        <li><b>Attribute</b><p>State organs (ARSIWA Art 4) or instructions and effective control (Art 8; Nicaragua para 115). For an armed attack by a group: sending or substantial involvement (Res 3314 Art 3(g); Nicaragua para 195).</p></li>
+        <li><b>Breach</b><p>Armed force in international relations, or a threat of it? If not, consider coercive intervention or a violation of sovereignty. Cite Art 2(4) and custom.</p></li>
+        <li><b>Justify</b><p>Consent (valid, within limits, not withdrawn), then Chapter VII authorisation (express, within scope), then self-defence: armed attack, attacker, timing, necessity, proportionality, report, request. Then assess any other claim.</p></li>
+        <li><b>Consequences</b><p>Cessation and reparation; for a serious breach, non-recognition and non-assistance (ARSIWA Art 41); no territorial gains; the crime of aggression for leaders (Art 8 bis and ICC jurisdiction).</p></li>
+        <li><b>Conclude</b><p>A clear answer for each act, after the other side's best argument.</p></li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="citeH">
+      <h2 id="citeH">Paragraphs worth citing</h2>
+      <dl class="cites">
+        <div><dt>Nicaragua para 176</dt><dd>Self-defence exists in custom alongside Art 51; necessity and proportionality come from custom.</dd></div>
+        <div><dt>Nicaragua para 186</dt><dd>Breaches treated as breaches confirm the rule.</dd></div>
+        <div><dt>Nicaragua paras 188–190</dt><dd>Opinio juris from Res 2625; the prohibition as custom and jus cogens.</dd></div>
+        <div><dt>Nicaragua para 191</dt><dd>Armed attack = the 'most grave forms' of force.</dd></div>
+        <div><dt>Nicaragua para 195</dt><dd>Scale and effects; armed bands; arms supply is not an armed attack.</dd></div>
+        <div><dt>Nicaragua paras 199–200</dt><dd>Request for collective self-defence; reporting as evidence.</dd></div>
+        <div><dt>Nicaragua paras 205, 228</dt><dd>Coercion as the essence of intervention; arming and training rebels is force, funding is intervention.</dd></div>
+        <div><dt>Corfu Channel p 35</dt><dd>The alleged right of intervention is 'the manifestation of a policy of force'.</dd></div>
+        <div><dt>Nuclear Weapons AO paras 41, 47</dt><dd>Necessity and proportionality whatever the weapon; a threat is unlawful if the force would be.</dd></div>
+        <div><dt>Oil Platforms paras 57, 64, 72, 76–77</dt><dd>Burden of proof; 'specifically aimed'; accumulation; a single warship; necessity of the targets.</dd></div>
+        <div><dt>Wall AO para 139</dt><dd>Armed attack 'by one State against another State'; threats from occupied territory.</dd></div>
+        <div><dt>DRC v Uganda paras 45–53</dt><dd>Consent: its limits and its withdrawal.</dd></div>
+        <div><dt>DRC v Uganda paras 146–148</dt><dd>Non-attributable attacks; disproportionate reach; no force for 'perceived security interests'.</dd></div>
+      </dl>
+    </section>
+  </div>
+
+  <p class="foot">Built from the course materials: the Week 7 lecture and slides, Hernández's chapter on the use of force and the ICJ judgments. Recent events are dated as in the lecture. Check pinpoints against the judgments before quoting them.</p>
+</div>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="sheet" id="sheet" role="dialog" aria-modal="false" aria-labelledby="sheetTitle" hidden>
+  <div class="grab" aria-hidden="true"></div>
+  <div class="top">
+    <div class="crumbs" id="sheetCrumbs"></div>
+    <button type="button" class="x" id="sheetClose" aria-label="Close details"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  </div>
+  <div class="scroll" id="sheetBody"></div>
+</aside>
+
+<script>
+(() => {
+  "use strict";
+
+  // ---------- content ----------
+  // t: label · d: explanation · a: authorities · q: [quote, source] · k: subtopics
+  const HUB = {
+    t: "Prohibition of the use of force",
+    d: "The cornerstone of the Charter system. States must refrain from the threat or use of armed force in their international relations. There are only two Charter exceptions, Security Council authorisation and self-defence; valid consent means there is no force 'against' the State at all.",
+    a: ["UN Charter Art 2(4)", "Nicaragua v US (1986) paras 187–190"],
+    q: ["All Members shall refrain in their international relations from the threat or use of force against the territorial integrity or political independence of any state, or in any other manner inconsistent with the Purposes of the United Nations.", "UN Charter, Art 2(4)"]
+  };
+
+  const BRANCHES = [
+    { t: "Sources and status", c: "src", d: "Where the rule comes from and how strong it is.", k: [
+      { t: "From just war to the Charter", d: "How the law moved from regulating war to banning force.", k: [
+        { t: "Just war doctrine", d: "From Augustine and Aquinas to Grotius (12th–17th centuries): war is lawful only with a just cause, right authority and right intention. It faded with positivism, when going to war became a sovereign prerogative.", a: ["Grotius, De Jure Belli ac Pacis (1625)"] },
+        { t: "League Covenant 1919", d: "Procedural limits only: disputes go to arbitration, judicial settlement or the Council, and no resort to war until three months after the award or report. War itself was not banned.", a: ["League Covenant Arts 10–16, esp Art 12"] },
+        { t: "Kellogg–Briand Pact 1928", d: "The parties condemned recourse to war and renounced it as an instrument of national policy; Germany, Italy and Japan were parties. It had no enforcement, and 'war' left room for 'force short of war', but it grounded crimes against peace at Nuremberg.", a: ["General Treaty for Renunciation of War (1928) Arts I–II"] },
+        { t: "Stimson doctrine 1932", d: "After Japan created Manchukuo, the US refused to recognise situations brought about by force in breach of the Pact: an early form of today's duty of non-recognition.", a: ["Stimson Note, 7 Jan 1932"] },
+        { t: "Nuremberg 1946", d: "Aggressive war was prosecuted as a crime against peace and called the supreme international crime.", a: ["IMT Judgment (1946)", "IMT Charter Art 6(a)"], q: ["To initiate a war of aggression, therefore, is not only an international crime; it is the supreme international crime differing only from other war crimes in that it contains within itself the accumulated evil of the whole.", "IMT Nuremberg, Judgment (1946)"] },
+        { t: "UN Charter 1945", d: "Art 2(4) bans 'force', not just 'war', closing the undeclared-war loophole. Art 2(3) requires peaceful settlement of disputes, and the Preamble aims to save succeeding generations from the scourge of war.", a: ["UN Charter Preamble, Arts 1(1), 2(3), 2(4)"] }
+      ]},
+      { t: "Treaty: Art 2(4)", d: "Binds all UN Members. Art 2(6) asks the UN to ensure that non-members act on these principles, and Art 103 gives Charter obligations priority over other treaties.", a: ["UN Charter Arts 2(4), 2(6), 103"] },
+      { t: "Customary law", d: "The prohibition also exists in custom, alongside the Charter and with its own content. Opinio juris can be deduced from States' attitude to Res 2625, and inconsistent practice treated as a breach confirms the rule rather than undermining it.", a: ["Nicaragua paras 176, 186–190"], q: ["…instances of State conduct inconsistent with a given rule should generally have been treated as breaches of that rule, not as indications of the recognition of a new rule.", "Nicaragua v US (1986), para 186"] },
+      { t: "Jus cogens", d: "Widely regarded as peremptory. A treaty authorising aggression would be void, and serious breaches trigger ARSIWA Arts 40–41. Debated: whether all of Art 2(4) is peremptory or only the prohibition of aggression, which is what the ILC's 2022 list names.", a: ["Nicaragua para 190", "VCLT Arts 53, 64", "ILC Conclusions on Peremptory Norms (2022), annex"] },
+      { t: "Erga omnes", d: "Owed to the international community as a whole, so every State has a legal interest in compliance. This matters for standing and for ARSIWA Art 48.", a: ["Barcelona Traction (1970) para 34"], q: ["Such obligations derive, for example, in contemporary international law, from the outlawing of acts of aggression, and of genocide…", "Barcelona Traction (1970), para 34"] },
+      { t: "GA declarations as evidence", d: "Not binding in themselves, but evidence of opinio juris.", a: ["Nicaragua para 188"], k: [
+        { t: "Res 2131 (1965)", d: "Declaration on the Inadmissibility of Intervention: no State may intervene, directly or indirectly, for any reason whatever.", a: ["GA Res 2131 (XX)"] },
+        { t: "Res 2625 (1970)", d: "Friendly Relations Declaration. Spells out the principle: no reprisals involving force, no organising or encouraging armed bands, no force to deny self-determination, no force across armistice lines, and no recognition of territory acquired by force.", a: ["GA Res 2625 (XXV)", "Nicaragua paras 188, 191"] },
+        { t: "Res 3314 (1974)", d: "Definition of Aggression. Its Art 3(g), on sending armed bands, is treated as custom for indirect armed attacks.", a: ["GA Res 3314 (XXIX)", "Nicaragua para 195"] },
+        { t: "Res 42/22 (1987)", d: "Declaration on the Enhancement of the Effectiveness of the Principle of Refraining from the Threat or Use of Force: restates the prohibition and its universal character.", a: ["GA Res 42/22"] }
+      ]}
+    ]},
+
+    { t: "Scope of Art 2(4)", c: "scope", d: "What exactly the rule prohibits.", k: [
+      { t: "Who is bound", d: "All UN Members under the Charter and all States under custom. Non-State actors are not addressees: their violence raises questions of attribution, self-defence and domestic criminal law.", a: ["UN Charter Art 2(4)", "Nicaragua para 188"] },
+      { t: "'In their international relations'", d: "Inter-State force only. A State's force against rebels on its own territory falls outside Art 2(4), though IHL and human rights law apply. Force across an international line of demarcation, such as an armistice line, is covered.", a: ["Res 2625", "Eritrea–Ethiopia Claims Commission, Jus ad Bellum (2005)"] },
+      { t: "'Force' means armed force", d: "The dominant reading, supported by the travaux and Res 2625.", k: [
+        { t: "Economic and political coercion excluded", d: "Brazil's proposal to cover economic coercion was rejected at San Francisco. Economic pressure falls under non-intervention instead, and the Court did not treat the US trade embargo on Nicaragua as unlawful intervention.", a: ["UNCIO travaux (1945)", "Res 2625", "Nicaragua paras 244–245"] },
+        { t: "Indirect force counts", d: "Arming and training rebels is a use of force; organising armed bands, or letting your territory be used for force against another State, are covered by Res 2625. Merely funding rebels is intervention, not force.", a: ["Nicaragua para 228", "DRC v Uganda paras 161–165"] },
+        { t: "Is there a gravity threshold?", d: "Debated. Minor incidents and police measures may fall outside. Ordering an oil rig to leave 'or face the consequences' was a threat of force, while boarding and inspecting a fishing vessel was law enforcement.", a: ["Guyana v Suriname (2007) paras 439–445", "Fisheries Jurisdiction (Spain v Canada) (1998) para 84"] },
+        { t: "Cyber operations", d: "A use of force if its scale and effects are comparable to a kinetic attack: death, injury or physical destruction. Disruption alone may be intervention or a violation of sovereignty.", a: ["Tallinn Manual 2.0 (2017) Rules 68–69", "Nicaragua para 195"] }
+      ]},
+      { t: "Threat of force", d: "Unlawful whenever the force threatened would itself be unlawful. It covers ultimatums and signalled intentions to use force if certain events occur, not the mere possession of weapons.", a: ["Nuclear Weapons AO (1996) paras 47–48", "Guyana v Suriname (2007)"], q: ["…if the use of force itself in a given case is illegal – for whatever reason – the threat to use such force will likewise be illegal.", "Nuclear Weapons AO (1996), para 47"], k: [
+        { t: "Greenland, Jan 2026", d: "US statements refusing to rule out force to acquire Greenland: arguably a prohibited threat, since acquiring territory by force is itself unlawful.", a: ["Nuclear Weapons AO para 47", "Res 2625"] }
+      ]},
+      { t: "'Territorial integrity or political independence'", d: "Not a loophole for limited or well-meant force: the closing words, 'or in any other manner inconsistent with the Purposes', catch everything else.", a: ["Corfu Channel (1949) p 35", "Nicaragua para 209"], k: [
+        { t: "Corfu Channel 1949", d: "The UK's minesweeping in Albanian waters (Operation Retail) violated Albanian sovereignty, whatever its motive.", a: ["Corfu Channel (1949) pp 34–35"], q: ["The Court can only regard the alleged right of intervention as the manifestation of a policy of force, such as has, in the past, given rise to most serious abuses and such as cannot, whatever be the present defects in international organization, find a place in international law.", "Corfu Channel (1949), p 35"] },
+        { t: "No force to recover claimed territory", d: "Eritrea's attack around Badme in 1998 breached Art 2(4) even though it claimed the area; otherwise border disputes would make 'a large and dangerous hole' in the rule. Compare Goa 1961, the Falklands 1982 and Kuwait 1990.", a: ["EECC, Jus ad Bellum (2005)", "SC Res 502 (1982)"] },
+        { t: "No acquisition of territory by force", d: "Territory taken by force cannot be lawfully acquired, and annexation is unlawful. Applied to Crimea in 2014 and to the four Ukrainian regions in 2022.", a: ["Res 2625", "Res 3314 Art 5(3)", "Wall AO para 87", "OPT AO (2024) para 175", "GA Res 68/262; ES-11/4"], q: ["No territorial acquisition resulting from the threat or use of force shall be recognized as legal.", "GA Res 2625 (1970)"] }
+      ]},
+      { t: "Link with non-intervention", d: "Force is the gravest form of intervention. Non-intervention reaches further, to any coercion over matters a State may decide freely, such as its political system and its foreign policy.", a: ["Nicaragua paras 202–209", "Res 2131; Res 2625"], q: ["The element of coercion, which defines, and indeed forms the very essence of, prohibited intervention, is particularly obvious in the case of an intervention which uses force…", "Nicaragua v US (1986), para 205"] }
+    ]},
+
+    { t: "Self-defence (Art 51)", c: "sd", d: "The first Charter exception, and the one most problem questions turn on.", k: [
+      { t: "Basis: an 'inherent right'", d: "Art 51 preserves a pre-existing customary right. Custom supplies necessity and proportionality; the Charter adds the reporting duty and the Security Council's overriding role.", a: ["UN Charter Art 51", "Nicaragua para 176"], q: ["Nothing in the present Charter shall impair the inherent right of individual or collective self-defence if an armed attack occurs against a Member of the United Nations, until the Security Council has taken measures necessary to maintain international peace and security.", "UN Charter, Art 51"] },
+      { t: "Armed attack", d: "The trigger. Without an armed attack there is no self-defence, however grave the provocation.", k: [
+        { t: "The 'most grave forms' of force", d: "Not every use of force is an armed attack: there is a gravity gap between Art 2(4) and Art 51.", a: ["Nicaragua para 191"], q: ["…it will be necessary to distinguish the most grave forms of the use of force (those constituting an armed attack) from other less grave forms.", "Nicaragua v US (1986), para 191"] },
+        { t: "Scale and effects", d: "Frontier incidents do not qualify, and supplying weapons or logistics to rebels is not an armed attack, though it may be a use of force or intervention. Localised border clashes were not armed attacks in Eritrea–Ethiopia.", a: ["Nicaragua para 195", "EECC, Jus ad Bellum (2005)"] },
+        { t: "One incident can be enough", d: "The Court did not exclude that mining a single warship might trigger self-defence.", a: ["Oil Platforms (2003) para 72"] },
+        { t: "Accumulation of events", d: "A series of smaller attacks can together amount to an armed attack, but the Court has never yet found that they did.", a: ["Oil Platforms para 64", "Nicaragua para 231", "DRC v Uganda para 146"] },
+        { t: "'Specifically aimed' at the victim", d: "The US had to show that the attacks were aimed at it, not just at shipping in the Gulf generally.", a: ["Oil Platforms para 64"] },
+        { t: "Burden of proof", d: "The State invoking self-defence must prove the armed attack and the other State's responsibility for it.", a: ["Oil Platforms paras 57, 61"] },
+        { t: "Cyber armed attack", d: "A cyber operation whose scale and effects match those of a kinetic armed attack.", a: ["Tallinn Manual 2.0 Rule 71"] }
+      ]},
+      { t: "Attacks by non-State actors", d: "The hardest open question in the field. Know all three positions.", k: [
+        { t: "Armed bands sent by a State", d: "An armed attack by that State if it sent the bands, or they act on its behalf, or it is substantially involved, and their scale and effects suffice.", a: ["Res 3314 Art 3(g)", "Nicaragua para 195"], q: ["The sending by or on behalf of a State of armed bands, groups, irregulars or mercenaries, which carry out acts of armed force against another State of such gravity as to amount to the acts listed above, or its substantial involvement therein.", "GA Res 3314 (1974), Art 3(g)"] },
+        { t: "Restrictive: a State attacker", d: "The Wall AO read Art 51 as covering armed attacks by one State against another. DRC v Uganda found the ADF's attacks not attributable to the DRC and left the wider question open.", a: ["Wall AO para 139", "DRC v Uganda paras 146–147"], q: ["Article 51 of the Charter thus recognizes the existence of an inherent right of self-defence in the case of armed attack by one State against another State.", "Wall AO (2004), para 139"] },
+        { t: "Middle: the separate opinions", d: "Art 51 does not name the attacker, so a large-scale attack by a group can trigger it, but force in the host State must be confined to the group and be strictly necessary and proportionate.", a: ["Higgins, Kooijmans, Buergenthal (Wall)", "Kooijmans, Simma (DRC v Uganda)"] },
+        { t: "Expansive: 'unwilling or unable'", d: "Force against a group in a host State that is unwilling or unable to stop it: the US, UK, Australia, Canada and Turkey against ISIS in Syria from 2014. Critics: the acting State decides alone that the test is met.", a: ["Art 51 letters on Syria (2014–15)", "SC Res 2249 (2015)"] },
+        { t: "9/11 and Afghanistan 2001", d: "SC resolutions recognised the inherent right in their preambles, NATO invoked Art 5 for the first time, and the Taliban were targeted for harbouring al-Qaeda.", a: ["SC Res 1368, 1373 (2001)"] },
+        { t: "Gaza and occupied territory", d: "The 7 October attacks meet the factual threshold, but they came from territory Israel still occupies, so its powers there come from occupation law (the Wall para 139 logic). Hezbollah in Lebanon is the cross-border test case.", a: ["Wall AO para 139", "OPT AO (2024) para 93", "SC Res 2720 (2023)"] }
+      ]},
+      { t: "Timing", d: "When may a State act: after, during or before an attack?", k: [
+        { t: "Anticipatory: imminent attack", d: "Debated, but widely accepted for a truly imminent attack. The 2004 High-level Panel and 'In Larger Freedom' say imminent threats are fully covered by Art 51; the IDI (2007) requires an actual or manifestly imminent armed attack.", a: ["The Caroline (1837); Webster (1841)", "High-level Panel (2004) para 188", "In Larger Freedom (2005) para 124", "IDI Resolution 10A (2007)"], q: ["…a necessity of self-defence, instant, overwhelming, leaving no choice of means, and no moment for deliberation.", "Webster, the Caroline correspondence (1841)"] },
+        { t: "Pre-emptive or preventive: unlawful", d: "Force against a non-imminent future threat is outside Art 51. The SC unanimously condemned Israel's 1981 strike on Iraq's Osirak reactor, and the 2002 Bush Doctrine, which dropped imminence, was widely rejected.", a: ["SC Res 487 (1981)", "DRC v Uganda para 148"], q: ["It does not allow the use of force by a State to protect perceived security interests beyond these parameters.", "DRC v Uganda (2005), para 148"] },
+        { t: "Iran 2025–26 as test cases", d: "The Israel–Iran 12-day war (13–24 June 2025), with US strikes on Fordow, Natanz and Isfahan on 22 June, reported as collective self-defence. Then the US–Israel war on Iran from 28 Feb 2026 (ceasefire 8 April). Israel's Defence Minister called the 2026 strikes 'pre-emptive', which on its own terms falls outside Art 51.", a: ["S/2025/426 (27 June 2025)", "US Art 51 letter, 10 Mar 2026"] },
+        { t: "Immediacy", d: "The response must follow the attack without undue delay, allowing time to prepare, as with the UK's Falklands task force in 1982. A long-delayed strike looks like a reprisal.", a: ["Tallinn Manual 2.0 Rule 73"] }
+      ]},
+      { t: "Necessity", d: "Force must be the only reasonable way to halt or repel the attack, and the targets must be linked to it. In Oil Platforms necessity failed: the US had never complained about the platforms' military use, and one strike was a 'target of opportunity'.", a: ["Nicaragua paras 176, 194", "Nuclear Weapons AO para 41", "Oil Platforms paras 73–76"] },
+      { t: "Proportionality", d: "Measured against what is needed to halt and repel the attack and recover territory, not the size of the first attack. Courts look at the scale of the whole operation, its reach into the other State and the weapons used.", a: ["Nicaragua para 176", "Oil Platforms para 77", "DRC v Uganda para 147"], q: ["…the taking of airports and towns many hundreds of kilometres from Uganda's border would not seem proportionate to the series of transborder attacks it claimed had given rise to the right of self-defence, nor to be necessary to that end.", "DRC v Uganda (2005), para 147"] },
+      { t: "Report to the Security Council", d: "Required by Art 51. Not a condition in custom, but failing to report suggests the State did not itself believe it was acting in self-defence.", a: ["Nicaragua paras 200, 235", "DRC v Uganda para 145"] },
+      { t: "'Until the SC has taken measures'", d: "The right lasts until the SC takes the measures necessary to restore peace. Mere SC involvement or sanctions do not end it: Res 661 on Kuwait affirmed the inherent right while imposing sanctions.", a: ["UN Charter Art 51", "SC Res 661 (1990)"] },
+      { t: "Collective self-defence", d: "A third State helping the victim.", k: [
+        { t: "Victim declares an armed attack", d: "A third State may not decide on its own that another State was attacked.", a: ["Nicaragua paras 195, 199"] },
+        { t: "Victim requests help", d: "No request, no collective self-defence: El Salvador had not asked the US in time.", a: ["Nicaragua paras 196–199"] },
+        { t: "Alliances", d: "NATO Art 5, invoked once after 9/11, and the Rio Treaty pre-commit States, but each operation still needs an armed attack and a request.", a: ["North Atlantic Treaty Art 5"] },
+        { t: "Russia 2022: an abusive claim", d: "Russia invoked the collective self-defence of the 'DPR' and 'LPR' and its own self-defence against NATO. There was no armed attack, no State able to request help and no imminence; the GA deplored it as aggression.", a: ["S/2022/154", "GA Res ES-11/1 (2022)"] },
+        { t: "The US for Israel against Iran", d: "The 2025 and 2026 US strikes were both reported as collective self-defence of Israel. Test whether Israel faced an armed attack and asked for help.", a: ["S/2025/426", "US Art 51 letter, 10 Mar 2026"] }
+      ]}
+    ]},
+
+    { t: "Security Council (Chapter VII)", c: "sc", d: "The second Charter exception: collective security.", k: [
+      { t: "Primary responsibility", d: "Members confer primary responsibility for peace and security on the SC (Art 24) and agree to carry out its decisions (Art 25); Charter obligations prevail over other treaties (Art 103).", a: ["UN Charter Arts 24, 25, 103", "Lockerbie, Provisional Measures (1992) para 39"] },
+      { t: "Art 39 determination", d: "The gateway to Chapter VII. The SC's discretion is wide but not unlimited.", a: ["UN Charter Art 39", "Tadić, Jurisdiction Appeal (1995) paras 28–30"], k: [
+        { t: "Threat to the peace", d: "Read widely: civil wars, terrorism, proliferation, even the Ebola outbreak.", a: ["SC Res 2177 (2014)"] },
+        { t: "Breach of the peace", d: "Found only four times: Korea 1950, the Falklands 1982, Iran–Iraq 1987 and Kuwait 1990.", a: ["SC Res 82 (1950), 502 (1982), 598 (1987), 660 (1990)"] },
+        { t: "Act of aggression", d: "Never formally determined under Art 39, not even for Russia's invasion of Ukraine, where a veto blocked the SC and the GA spoke instead.", a: ["GA Res ES-11/1 (2022)"] }
+      ]},
+      { t: "Arts 40–42: the ladder", d: "From provisional measures to military action.", k: [
+        { t: "Art 40 provisional measures", d: "Calls for ceasefires or withdrawal, without prejudice to the parties' rights.", a: ["UN Charter Art 40"] },
+        { t: "Art 41 non-forcible measures", d: "Sanctions, embargoes, severing relations, and creating criminal tribunals such as the ICTY and ICTR.", a: ["UN Charter Art 41", "Tadić (1995) paras 32–36"] },
+        { t: "Art 42 military measures", d: "Force by the UN itself. The Art 43 agreements that would give the SC standing forces were never concluded, so the SC authorises Member States instead.", a: ["UN Charter Arts 42–43"] }
+      ]},
+      { t: "Authorisation: 'all necessary means'", d: "The working model: the SC authorises willing States or organisations to use force.", k: [
+        { t: "Korea 1950", d: "Adopted while the USSR boycotted the SC: the blueprint for authorising States.", a: ["SC Res 83, 84 (1950)"] },
+        { t: "Kuwait 1990", d: "'All necessary means' to restore Kuwait's sovereignty: the classic formula.", a: ["SC Res 678 (1990)"] },
+        { t: "Somalia, Bosnia, Haiti", d: "In the 1990s humanitarian and democratic crises were treated as threats to the peace.", a: ["SC Res 794 (1992), 836 (1993), 940 (1994)"] },
+        { t: "Libya 2011", d: "'All necessary measures' to protect civilians: the first R2P-based authorisation. The coalition was accused of pursuing regime change.", a: ["SC Res 1973 (2011)"] },
+        { t: "ISIS 2015", d: "Called on States to take 'all necessary measures' against ISIS, but not under Chapter VII, so probably not an authorisation in itself.", a: ["SC Res 2249 (2015)"] },
+        { t: "Gaza 2025", d: "Endorsed the US peace plan, a Board of Peace and an International Stabilization Force with 'all necessary measures' until 31 Dec 2027, by 13 votes to none with 2 abstentions.", a: ["SC Res 2803 (2025)"] }
+      ]},
+      { t: "Limits and controversies", d: "Where collective security strains.", k: [
+        { t: "Implied or 'revived' authorisation", d: "In 2003 the UK argued that Res 678's authority revived through Res 687 and 1441. Most States and scholars reject this: authorisation must be express.", a: ["SC Res 678, 687, 1441", "UK Attorney General's advice (7 Mar 2003)"] },
+        { t: "Exceeding the mandate", d: "Libya 2011 fuelled distrust of humanitarian mandates, prompting Brazil's 'responsibility while protecting'.", a: ["SC Res 1973 (2011)"] },
+        { t: "Veto and abstention", d: "Decisions need nine votes and no permanent member's veto; an abstention is not a veto. Since 2022 every veto triggers a GA debate.", a: ["UN Charter Art 27(3)", "Namibia AO (1971) para 22", "GA Res 76/262 (2022)"] },
+        { t: "Uniting for Peace", d: "When a veto blocks the SC, the GA may meet in emergency session and recommend measures, as with ES-11 on Ukraine. It cannot order enforcement action.", a: ["GA Res 377 (V) (1950)", "Certain Expenses AO (1962)"] },
+        { t: "Is the SC bound by law?", d: "It must act in accordance with the Purposes and Principles, and arguably with jus cogens; it is not 'legibus solutus'.", a: ["UN Charter Art 24(2)", "Tadić (1995) para 28", "Bosnia v Serbia, Provisional Measures (1993), Judge ad hoc Lauterpacht"] }
+      ]},
+      { t: "Regional organisations", d: "Regional arrangements may handle local disputes, but enforcement action needs SC authorisation. ECOWAS in Liberia and Sierra Leone was endorsed after the fact; the AU claims a right to intervene in grave circumstances; The Gambia 2017 combined an invitation with SC support.", a: ["UN Charter Arts 52–54", "AU Constitutive Act Art 4(h)", "SC Res 2337 (2017)"] },
+      { t: "Peacekeeping", d: "Not enforcement: consent of the parties, impartiality, and force only in self-defence or defence of the mandate. It rests on the UN's implied powers.", a: ["Certain Expenses AO (1962)"] }
+    ]},
+
+    { t: "Consent (intervention by invitation)", c: "consent", d: "Force on another State's territory with that State's valid consent.", k: [
+      { t: "Why it is not a true exception", d: "With valid consent there is no force 'against' the State, or consent precludes wrongfulness. The lecture lists it as a third exception.", a: ["ARSIWA Art 20", "DRC v Uganda paras 42–53"] },
+      { t: "Valid consent", d: "Check each condition.", k: [
+        { t: "Given by the government", d: "Traditionally the government in effective control. Democratic legitimacy is increasingly invoked, as in Haiti 1994 and The Gambia 2017, but a regime that has lost control is a weak source of consent.", a: ["SC Res 940 (1994)", "SC Res 2337 (2017)"] },
+        { t: "Freely given", d: "Consent obtained by coercion is invalid, as with treaties procured by force.", a: ["ARSIWA Art 20 commentary", "VCLT Art 52"] },
+        { t: "Given before the action", d: "Consent cannot be granted after the fact to cure an unlawful intervention.", a: ["ARSIWA Art 20 commentary"] },
+        { t: "Within its limits", d: "Force must stay within the consent's scope: its time, place and purpose.", a: ["DRC v Uganda paras 45–52"] },
+        { t: "Withdrawable at any time", d: "No formalities are needed. Once the DRC withdrew its consent, Uganda's continued presence was unlawful.", a: ["DRC v Uganda paras 47, 51–53"] }
+      ]},
+      { t: "Civil wars", d: "Who may invite, and against whom.", k: [
+        { t: "Supporting a government against its people", d: "Contested. The IDI (2011) bars military assistance whose object is to support a government against its own population; others accept invitations until the rebels win.", a: ["IDI Rhodes Resolution (2011) Art 3"] },
+        { t: "Counter-terrorism assistance", d: "Widely accepted: France in Mali in 2013 at Mali's request, and the coalition in Iraq against ISIS from 2014.", a: ["SC Res 2085 (2012)"] },
+        { t: "No invitation by the opposition", d: "There is no general right to intervene in support of an opposition.", a: ["Nicaragua paras 209, 246"], q: ["…no such general right of intervention, in support of an opposition within another State, exists in contemporary international law.", "Nicaragua v US (1986), para 209"] }
+      ]},
+      { t: "Practice to know", d: "Invitations that worked and invitations that did not.", k: [
+        { t: "DRC v Uganda 1998", d: "Lawful while the DRC consented; unlawful after it withdrew consent.", a: ["DRC v Uganda paras 42–53"] },
+        { t: "Crimea 2014", d: "Russia cited a letter from deposed President Yanukovych, who no longer exercised control. The GA affirmed Ukraine's territorial integrity.", a: ["GA Res 68/262 (2014)"] },
+        { t: "Syria from 2015", d: "Russia intervened at the request of the Assad government." },
+        { t: "Kazakhstan 2022", d: "CSTO troops deployed at the government's request during unrest." },
+        { t: "The Gambia 2017", d: "ECOWAS forces backed President-elect Barrow, who had won the election but did not control the State. The SC supported ECOWAS's efforts but did not authorise force.", a: ["SC Res 2337 (2017)"] }
+      ]},
+      { t: "Treaty rights of intervention", d: "A treaty cannot give a standing right to use force contrary to the Charter. Turkey invoked the 1960 Treaty of Guarantee for Cyprus in 1974.", a: ["Treaty of Guarantee (1960) Art IV", "UN Charter Arts 2(4), 103"] }
+    ]},
+
+    { t: "Contested justifications", c: "contest", d: "Claims States make that have no clear basis in law.", k: [
+      { t: "Humanitarian intervention", d: "Force without SC authorisation to stop atrocities. No clear legal basis.", k: [
+        { t: "Kosovo 1999", d: "NATO bombed the FRY without SC authorisation. The Independent International Commission called it 'illegal but legitimate'; Res 1244 neither endorsed nor condemned it.", a: ["Independent International Commission on Kosovo (2000)", "SC Res 1244 (1999)"] },
+        { t: "The UK's three conditions", d: "Convincing evidence of extreme humanitarian distress, no practicable alternative, and force that is necessary, proportionate and limited. Invoked for Syria in 2013 and in 2018, with the US and France.", a: ["UK legal position, 29 Aug 2013", "UK legal position, 14 Apr 2018"] },
+        { t: "Belgium before the ICJ", d: "Pleaded humanitarian intervention in the 1999 Legality of Use of Force case; the Court never reached the merits.", a: ["Legality of Use of Force (Yugoslavia v Belgium) (1999, 2004)"] },
+        { t: "Older cases framed as self-defence", d: "India in East Pakistan (1971), Vietnam in Cambodia (1978–79) and Tanzania in Uganda (1979) relied on self-defence, not a humanitarian right." },
+        { t: "Rejected by most States", d: "The G77 rejected the 'so-called right of humanitarian intervention'. The ICJ has said force is not the way to ensure respect for human rights.", a: ["G77 Ministerial Declaration (1999)", "Nicaragua para 268", "Corfu Channel p 35"] }
+      ]},
+      { t: "Responsibility to Protect", d: "R2P works through the Security Council, not around it.", k: [
+        { t: "ICISS 2001", d: "Recast intervention as a responsibility and proposed criteria: just cause, right intention, last resort, proportional means, reasonable prospects and right authority." },
+        { t: "World Summit 2005", d: "States accepted R2P, but collective action runs through the SC under Chapter VII, case by case. It creates no unilateral right.", a: ["GA Res 60/1 paras 138–139"] },
+        { t: "Libya 2011 and the backlash", d: "The first R2P authorisation, followed by accusations of regime change and then SC deadlock over Syria.", a: ["SC Res 1973 (2011)"] },
+        { t: "Veto restraint", d: "The France–Mexico initiative and the ACT code of conduct ask the permanent members not to veto in atrocity situations; Hernández calls it only 'a polite intimation'." }
+      ]},
+      { t: "Protection of nationals abroad", d: "Claimed as self-defence by the US (Dominican Republic 1965, Grenada 1983, Panama 1989, the 1980 Tehran rescue), Israel (Entebbe 1976) and Russia (Georgia 2008). Its legality remains contentious: argue it at most as a narrow form of self-defence.", a: ["Tehran Hostages (1980) paras 93–94", "Tagliavini Report (2009)"] },
+      { t: "Pro-democratic intervention", d: "Force to install or restore a government is unlawful. The GA deplored Grenada (1983) and Panama (1989), and the ICJ rejected intervention on ideological grounds.", a: ["GA Res 38/7 (1983); 44/240 (1989)", "Nicaragua para 263"] },
+      { t: "'Law enforcement' operations", d: "The US framed its seizure of Maduro in Caracas on 3 Jan 2026 as a law enforcement operation, citing the Noriega precedent, and invoked Art 51. Most SC members called it a violation of Art 2(4) and of Venezuela's political independence.", a: ["SC debate, 5 Jan 2026"] },
+      { t: "Armed reprisals", d: "Punitive force after the event is unlawful, and countermeasures may not involve force.", a: ["Res 2625", "Nuclear Weapons AO para 46", "ARSIWA Art 50(1)(a)", "Nicaragua para 249"] },
+      { t: "Self-determination struggles", d: "Peoples under colonial or alien domination may seek and receive support, and force to deny self-determination is prohibited. Whether peoples may themselves use force remains unsettled.", a: ["Res 2625", "Res 3314 Art 7", "AP I Art 1(4)"] }
+    ]},
+
+    { t: "Aggression and consequences", c: "agg", d: "What follows when the prohibition is broken.", k: [
+      { t: "Act of aggression (Res 3314)", d: "The GA's 1974 definition, later copied into the Rome Statute.", k: [
+        { t: "Art 1: definition", d: "The use of armed force by a State against the sovereignty, territorial integrity or political independence of another State, or in any other manner inconsistent with the Charter.", a: ["GA Res 3314 Art 1"] },
+        { t: "Art 2: first use", d: "First use of armed force in breach of the Charter is prima facie evidence of aggression; the SC may conclude otherwise, for example on gravity.", a: ["GA Res 3314 Art 2"] },
+        { t: "Art 3: the list", d: "Invasion, occupation or annexation; bombardment; blockade; attacks on armed forces; using stationed forces beyond the agreement; letting territory be used for aggression; and sending armed bands.", a: ["GA Res 3314 Art 3(a)–(g)"] },
+        { t: "Arts 4–5", d: "The list is not exhaustive and the SC may add acts. No consideration of any nature justifies aggression, and no territory acquired by aggression is lawful.", a: ["GA Res 3314 Arts 4–5"] }
+      ]},
+      { t: "State responsibility", d: "The wrongdoing State's obligations, and everyone else's.", k: [
+        { t: "Cessation and full reparation", d: "Restitution, compensation and satisfaction. In DRC v Uganda (2022) the Court awarded US$325 million: $225m for loss of life and injury, $40m for property and $60m for natural resources.", a: ["ARSIWA Arts 30–31", "DRC v Uganda, Reparations (2022)"] },
+        { t: "Serious breach: Arts 40–41", d: "Other States must not recognise the situation as lawful, must not aid or assist in maintaining it, and must cooperate to end it.", a: ["ARSIWA Arts 40–41", "Wall AO para 159", "OPT AO (2024) para 279", "Namibia AO (1971)"], q: ["…all States are under an obligation not to recognize as legal the situation arising from the unlawful presence of Israel in the Occupied Palestinian Territory.", "OPT AO (2024), para 279"] },
+        { t: "Claims mechanisms", d: "The UN Compensation Commission for Iraq's invasion of Kuwait, the Eritrea–Ethiopia Claims Commission and the Council of Europe's Register of Damage for Ukraine (2023).", a: ["SC Res 687, 692 (1991)", "EECC Final Awards (2009)"] }
+      ]},
+      { t: "Crime of aggression", d: "Individual criminal responsibility for leaders.", k: [
+        { t: "Nuremberg: crimes against peace", d: "Prosecuted at Nuremberg and Tokyo as 'the supreme international crime'.", a: ["IMT Charter Art 6(a)"] },
+        { t: "Rome Statute Art 8 bis", d: "Planning, preparing, initiating or executing an act of aggression that by its character, gravity and scale is a manifest violation of the Charter, by a person able to control or direct the State's political or military action. Adopted at Kampala in 2010; jurisdiction active since 17 July 2018.", a: ["Rome Statute Art 8 bis"] },
+        { t: "The ICC's jurisdiction gap", d: "Without an SC referral the ICC cannot try nationals of non-parties or crimes on their territory, and parties may opt out. So Russia's leaders cannot be tried there for aggression against Ukraine.", a: ["Rome Statute Arts 15 bis(4)–(5), 15 ter"] },
+        { t: "Special Tribunal for Ukraine", d: "The Council of Europe–Ukraine agreement of 25 June 2025 sets up a tribunal for the leadership crime of aggression against Ukraine.", a: ["CoE–Ukraine Agreement (25 June 2025)"] }
+      ]},
+      { t: "Treaties imposed by force are void", d: "A treaty procured by the threat or use of force in violation of the Charter's principles is void.", a: ["VCLT Art 52"] },
+      { t: "Collective reactions", d: "GA Res ES-11/1 (2 March 2022, 141 votes) deplored Russia's aggression, and ES-11/4 (Oct 2022) declared the annexations invalid. The ICJ ordered Russia to suspend its military operations and doubted that the Genocide Convention allows unilateral force to prevent genocide.", a: ["GA Res ES-11/1; ES-11/4 (2022)", "Ukraine v Russia, Provisional Measures (16 Mar 2022) para 59"] },
+      { t: "Courts", d: "The ICJ has ruled on force in Corfu Channel, Nicaragua, Oil Platforms and DRC v Uganda. The Legality of Use of Force cases failed in 2004 because Serbia and Montenegro had no access to the Court. A political context does not bar a legal ruling.", a: ["Tehran Hostages (1980) para 37", "Legality of Use of Force (2004)"] }
+    ]},
+
+    { t: "Is Art 2(4) dead?", c: "debate", d: "The essay question the lecture builds towards.", k: [
+      { t: "Franck 1970: 'Who killed Article 2(4)?'", d: "National self-interest, above all of the superpowers, overrides the Charter's norms.", a: ["Franck, 64 AJIL 809 (1970)"] },
+      { t: "Henkin's reply", d: "'The Reports of the Death of Article 2(4) Are Greatly Exaggerated': the rule still shapes how States act and how they justify themselves.", a: ["Henkin, 65 AJIL 544 (1971)"] },
+      { t: "Breaches confirm the rule", d: "States that use force claim exceptions within the rule rather than deny it exists.", a: ["Nicaragua para 186"] },
+      { t: "Conquest has declined", d: "Hathaway and Shapiro argue that outlawing war sharply reduced territorial conquest.", a: ["Hathaway and Shapiro, The Internationalists (2017)"] },
+      { t: "This time is different?", d: "States increasingly skip legal justification altogether. Contrast the UK's careful 2003 'revival' argument on Iraq.", a: ["Week 7 lecture"] },
+      { t: "Law constrains and enables", d: "Hernández: law 'functions simultaneously to constrain and to facilitate violence', so do not assume steady progress towards stronger rules.", a: ["Hernández, International Law, use of force chapter"] },
+      { t: "Recent practice", d: "The examples the lecture uses, dated.", k: [
+        { t: "Ukraine 2014 and 2022", d: "The annexation of Crimea, then the full-scale invasion, justified by self-defence and 'genocide' claims.", a: ["GA Res 68/262; ES-11/1"] },
+        { t: "Gaza since Oct 2023", d: "Self-defence claims against attacks from occupied territory.", a: ["SC Res 2720 (2023)", "OPT AO (2024)"] },
+        { t: "India–Pakistan, May 2025", d: "Strikes and counter-strikes on 7–10 May 2025 after a terrorist attack in Kashmir." },
+        { t: "Israel–Iran, June 2025", d: "The 12-day war (13–24 June), with US strikes on nuclear sites on 22 June as collective self-defence.", a: ["S/2025/426"] },
+        { t: "Cambodia–Thailand, 2025", d: "Border fighting on 24–28 July and again in December 2025, with both sides sending Art 51 letters." },
+        { t: "Venezuela, Jan 2026", d: "US forces seized Maduro in Caracas on 3 January.", a: ["SC debate, 5 Jan 2026"] },
+        { t: "Greenland, Jan 2026", d: "Threats of force and tariffs over Greenland." },
+        { t: "Iran, Feb–Apr 2026", d: "The US–Israel war on Iran from 28 February, with a ceasefire on 8 April 2026.", a: ["US Art 51 letter, 10 Mar 2026"] }
+      ]}
+    ]}
+  ];
+  HUB.k = BRANCHES;
+
+  // ---------- helpers ----------
+  const $ = (s, r = document) => r.querySelector(s);
+  const h = (tag, attrs = {}, ...kids) => {
+    const el = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs || {})) {
+      if (v == null || v === false) continue;
+      if (k === "class") el.className = v;
+      else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+      else el.setAttribute(k, v === true ? "" : v);
+    }
+    for (const kid of kids.flat(3)) if (kid != null && kid !== false) el.append(kid.nodeType ? kid : document.createTextNode(String(kid)));
+    return el;
+  };
+  const norm = s => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+  const reduced = matchMedia("(prefers-reduced-motion: reduce)");
+  const wide = matchMedia("(min-width: 900px)");
+
+  // ---------- index ----------
+  const ALL = [];
+  let seq = 0;
+  (function index(list, depth, parent) {
+    list.forEach(n => {
+      n.id = "n" + (seq++); n.depth = depth; n.parent = parent; n.c = parent ? parent.c : n.c;
+      ALL.push(n);
+      if (n.k) index(n.k, depth + 1, n);
+    });
+  })(BRANCHES, 1, null);
+  HUB.id = "hub"; HUB.depth = 0;
+  const byId = Object.fromEntries(ALL.map(n => [n.id, n]));
+  const hasKids = n => !!(n.k && n.k.length);
+  const DEEP = ALL.filter(n => n.depth >= 2).length;
+
+  // ---------- state ----------
+  const KEY = "uof-map-v1";
+  const store = {
+    get() { try { return JSON.parse(localStorage.getItem(KEY)) || null; } catch { return null; } },
+    set(v) { try { localStorage.setItem(KEY, JSON.stringify(v)); } catch {} }
+  };
+  const levelSet = lv => new Set(lv === "branches" ? [] : lv === "all" ? ALL.filter(hasKids).map(n => n.id) : ALL.filter(n => n.depth === 1).map(n => n.id));
+  const saved = store.get();
+  let level = saved && saved.level ? saved.level : "overview";
+  let open = saved && Array.isArray(saved.open) ? new Set(saved.open.filter(id => byId[id])) : levelSet(level);
+  let recall = false;
+  const revealed = new Set();
+  let query = "", hits = new Set(), pathIds = new Set(), preSearch = null;
+  let lastTrigger = null, firstPaint = true;
+  const save = () => store.set({ level, open: [...open] });
+
+  // ---------- rendering ----------
+  function hubEl() {
+    return h("button", { type: "button", class: "hubnode", "aria-haspopup": "dialog", onclick: () => openSheet(HUB) },
+      h("span", { class: "k" }, "Art 2(4) UN Charter"),
+      h("span", { class: "h" }, HUB.t),
+      h("span", { class: "s" }, "Custom · jus cogens · erga omnes"));
+  }
+  function nodeEl(n) {
+    const isOpen = hasKids(n) && open.has(n.id);
+    const veiled = recall && n.depth >= 2 && !revealed.has(n.id);
+    const cls = "lbl" + (veiled ? " veil" : "") + (query && hits.has(n.id) ? " hit" : "") + (query && pathIds.has(n.id) ? " path" : "");
+    const lbl = h("button", { type: "button", class: cls, "aria-haspopup": veiled ? null : "dialog", "aria-label": veiled ? "Hidden topic. Tap to reveal it." : null },
+      h("span", { class: "t" }, n.t),
+      n.depth >= 2 && n.a && n.a.length ? h("span", { class: "cite" }, n.a[0]) : null);
+    lbl.addEventListener("click", () => onLabel(n, lbl));
+    const row = h("div", { class: "nd" }, lbl);
+    if (hasKids(n)) row.append(h("button", { type: "button", class: "tg", "aria-expanded": String(isOpen), "aria-label": `${isOpen ? "Hide" : "Show"} ${n.k.length} subtopics of ${n.t}`, onclick: () => toggle(n) }, isOpen ? "−" : "+" + n.k.length));
+    const li = h("li", { class: `bn d${n.depth}`, "data-id": n.id, "data-c": n.c, style: `--c:var(--${n.c})` }, row);
+    if (isOpen) li.append(h("ul", { class: "kids" }, n.k.map(nodeEl)));
+    return li;
+  }
+  function render(focusId, focusSel) {
+    const map = $("#map");
+    map.className = "map " + (wide.matches ? "radial" : "vertical") + (recall ? " recall" : "") + (query ? " searching" : "");
+    map.replaceChildren();
+    if (wide.matches) {
+      const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+      svg.setAttribute("class", "wires"); svg.setAttribute("aria-hidden", "true"); svg.id = "wires";
+      const right = h("ul", { class: "side right", "aria-label": "Branches 1 to 4" }), left = h("ul", { class: "side left", "aria-label": "Branches 5 to 8" });
+      BRANCHES.forEach((b, i) => (i < 4 ? right : left).append(nodeEl(b)));
+      map.append(svg, hubEl(), right, left);
+    } else {
+      map.append(hubEl(), h("ul", { class: "side", "aria-label": "Branches" }, BRANCHES.map(nodeEl)));
+    }
+    scheduleWires();
+    if (focusId) { const el = map.querySelector(`[data-id="${focusId}"] > .nd > ${focusSel || ".lbl"}`); if (el) el.focus({ preventScroll: true }); }
+    if (firstPaint && wide.matches) { firstPaint = false; requestAnimationFrame(centerHub); }
+    status();
+  }
+  function centerHub() {
+    const st = $("#stage"), map = $("#map"), hub = $(".hubnode", map);
+    if (!hub) return;
+    st.scrollLeft = Math.max(0, map.offsetLeft + hub.offsetLeft + hub.offsetWidth / 2 - st.clientWidth / 2);
+  }
+
+  // curved wires between nodes (wide layout only)
+  let raf = 0;
+  const scheduleWires = () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(drawWires); };
+  function drawWires() {
+    const map = $("#map"), svg = $("#wires", map);
+    if (!svg) return;
+    const mr = map.getBoundingClientRect(), W = map.scrollWidth, H = map.scrollHeight;
+    svg.setAttribute("width", W); svg.setAttribute("height", H); svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    const box = el => { const r = el.getBoundingClientRect(); return { l: r.left - mr.left, r: r.right - mr.left, y: (r.top + r.bottom) / 2 - mr.top }; };
+    const hub = box($(".hubnode", map));
+    const f = v => v.toFixed(1);
+    let out = "";
+    map.querySelectorAll(".bn").forEach(li => {
+      const onRight = !!li.closest(".side.right");
+      const parentLi = li.parentElement.closest(".bn");
+      const p = parentLi ? box(parentLi.firstElementChild) : hub;
+      const c = box(li.firstElementChild);
+      const x1 = onRight ? p.r : p.l, x2 = onRight ? c.l : c.r, dx = (x2 - x1) / 2;
+      const depth = Number(li.className.match(/\bd(\d)/)[1]);
+      out += `<path d="M${f(x1)} ${f(p.y)} C${f(x1 + dx)} ${f(p.y)} ${f(x2 - dx)} ${f(c.y)} ${f(x2)} ${f(c.y)}" style="stroke:var(--${li.dataset.c})" stroke-width="${depth === 1 ? 3 : depth === 2 ? 2 : 1.4}"/>`;
+    });
+    svg.innerHTML = out;
+  }
+
+  // ---------- interactions ----------
+  function onLabel(n, el) {
+    if (recall && n.depth >= 2 && !revealed.has(n.id)) {
+      revealed.add(n.id); el.classList.remove("veil"); el.removeAttribute("aria-label"); el.setAttribute("aria-haspopup", "dialog");
+      status(); return;
+    }
+    openSheet(n);
+  }
+  function toggle(n) {
+    if (open.has(n.id)) open.delete(n.id); else open.add(n.id);
+    level = "custom"; syncSeg(); save();
+    render(n.id, ".tg");
+  }
+  function setLevel(lv) {
+    if (query) clearSearch(false);
+    level = lv; open = levelSet(lv); syncSeg(); save(); render();
+    if (wide.matches) requestAnimationFrame(centerHub);
+  }
+  function syncSeg() { document.querySelectorAll(".seg button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.lv === level))); }
+  function reveal(n) { let p = n.parent; while (p) { open.add(p.id); p = p.parent; } }
+
+  function runSearch(q) {
+    query = q.trim();
+    if (!query) { clearSearch(true); return; }
+    if (!preSearch) preSearch = new Set(open);
+    const nq = norm(query);
+    hits = new Set(ALL.filter(n => norm([n.t, n.d || "", (n.a || []).join(" "), n.q ? n.q[0] + " " + n.q[1] : ""].join(" ")).includes(nq)).map(n => n.id));
+    pathIds = new Set(); open = new Set(preSearch);
+    hits.forEach(id => { let p = byId[id].parent; while (p) { pathIds.add(p.id); open.add(p.id); p = p.parent; } });
+    render();
+  }
+  function clearSearch(rerender) {
+    query = ""; hits = new Set(); pathIds = new Set();
+    if (preSearch) { open = preSearch; preSearch = null; }
+    $("#q").value = "";
+    if (rerender) render();
+  }
+  function status() {
+    const el = $("#status");
+    el.replaceChildren();
+    if (query) {
+      el.append(hits.size ? `${hits.size} ${hits.size === 1 ? "topic matches" : "topics match"} "${query}". Press Enter to open the first.` : `Nothing matches "${query}".`);
+    } else if (recall) {
+      el.append(`Recall mode: ${revealed.size} of ${DEEP} topics revealed. Say each one before you tap it.`);
+      if (revealed.size) el.append(h("button", { type: "button", onclick: () => { revealed.clear(); render(); } }, "Hide them again"));
+    }
+  }
+
+  // ---------- detail sheet ----------
+  function openSheet(n) {
+    lastTrigger = n.id;
+    const sh = $("#sheet"), body = $("#sheetBody");
+    const path = []; let p = n.parent; while (p) { path.unshift(p.t); p = p.parent; }
+    sh.style.setProperty("--c", n === HUB ? "var(--hub-1)" : `var(--${n.c})`);
+    $("#sheetCrumbs").textContent = n === HUB ? "Centre of the map" : ["Art 2(4)", ...path].join(" › ");
+    body.replaceChildren(...[
+      h("h2", { id: "sheetTitle" }, n.t),
+      n.d ? h("p", { class: "body" }, n.d) : null,
+      n.q ? h("figure", { class: "quote" }, h("blockquote", {}, n.q[0]), h("figcaption", {}, n.q[1])) : null,
+      n.a && n.a.length ? h("div", {}, h("div", { class: "lab" }, "Authorities"), h("ul", { class: "auths" }, n.a.map(a => h("li", {}, a)))) : null,
+      hasKids(n) ? h("div", {}, h("div", { class: "lab" }, n === HUB ? "The eight branches" : "Inside this topic"), h("ul", { class: "subs" }, n.k.map(k => h("li", {}, h("button", { type: "button", onclick: () => jumpTo(k) }, k.t))))) : null
+    ].filter(Boolean));
+    body.scrollTop = 0;
+    $("#scrim").hidden = wide.matches;
+    if (sh.hidden) { sh.hidden = false; requestAnimationFrame(() => requestAnimationFrame(() => sh.classList.add("open"))); }
+    $("#sheetClose").focus({ preventScroll: true });
+  }
+  function closeSheet() {
+    const sh = $("#sheet");
+    if (sh.hidden) return;
+    sh.classList.remove("open"); $("#scrim").hidden = true;
+    setTimeout(() => { sh.hidden = true; }, reduced.matches ? 0 : 230);
+    const el = lastTrigger === "hub" ? $(".hubnode") : document.querySelector(`[data-id="${lastTrigger}"] > .nd > .lbl`);
+    if (el) el.focus({ preventScroll: true });
+  }
+  function jumpTo(n) {
+    reveal(n);
+    if (recall) revealed.add(n.id);
+    level = "custom"; syncSeg(); save(); render();
+    const el = document.querySelector(`[data-id="${n.id}"] > .nd > .lbl`);
+    if (el) el.scrollIntoView({ behavior: reduced.matches ? "auto" : "smooth", block: "center", inline: "center" });
+    openSheet(n);
+  }
+
+  // ---------- wiring ----------
+  $("#legend").append(...BRANCHES.map(b => h("span", { style: `--c:var(--${b.c})` }, h("i"), b.t)));
+  document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => setLevel(b.dataset.lv)));
+  let st;
+  $("#q").addEventListener("input", e => { clearTimeout(st); st = setTimeout(() => runSearch(e.target.value), 160); });
+  $("#q").addEventListener("keydown", e => {
+    if (e.key === "Enter") { e.preventDefault(); clearTimeout(st); runSearch(e.target.value); const first = ALL.find(n => hits.has(n.id)); if (first) jumpTo(first); }
+    if (e.key === "Escape") clearSearch(true);
+  });
+  $("#recallBtn").addEventListener("click", e => {
+    recall = !recall; revealed.clear();
+    e.currentTarget.setAttribute("aria-pressed", String(recall));
+    if (recall && query) clearSearch(false);
+    $("#q").disabled = recall;
+    render();
+  });
+  $("#sheetClose").addEventListener("click", closeSheet);
+  $("#scrim").addEventListener("click", closeSheet);
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && !$("#sheet").hidden) closeSheet(); });
+  wide.addEventListener("change", () => { firstPaint = true; render(); if (!$("#sheet").hidden) $("#scrim").hidden = wide.matches; });
+  if ("ResizeObserver" in window) new ResizeObserver(scheduleWires).observe($("#map"));
+  window.addEventListener("resize", scheduleWires);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(scheduleWires);
+
+  // In the app and the class guide a back link is added; go back in history when we came from the same site.
+  const back = document.getElementById("backLink");
+  if (back) back.addEventListener("click", e => {
+    try { if (document.referrer && new URL(document.referrer).origin === location.origin) { e.preventDefault(); history.back(); } } catch {}
+  });
+
+  syncSeg();
+  render();
+})();
+</script>
+
+</body>
+</html>
