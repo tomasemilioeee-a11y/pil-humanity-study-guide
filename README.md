@@ -7,9 +7,17 @@ A student-made revision guide for the two LL.M finals:
 
 **Read it as a website:** https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/ (works well on a phone; add it to your Home Screen).
 
-**Mind map:** [The prohibition of the use of force](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/use-of-force.html), interactive, with recall mode and search.
+**Mind maps** (interactive, with recall mode and search):
 
-Inside: 371 rules to know cold, 172 cases, 43 key passages quoted from judgments and treaties, 239 self-test cards, 17 problem questions (9 from the official sample and past papers, with issue checklists and the summarised March 2026 marking key) and 40 essay questions (10 from the official papers).
+- [States and peoples](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/states-peoples.html)
+- [The law of treaties](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/treaties.html)
+- [Sources of international law](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/sources.html)
+- [The prohibition of the use of force](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/use-of-force.html)
+- [Jurisdiction and immunities](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/jurisdiction-immunities.html)
+- [International economic law](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/economic-law.html)
+- [State responsibility](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/state-responsibility.html)
+
+Inside: 371 rules to know cold, 177 cases, 43 key passages quoted from judgments and treaties, 253 self-test cards, 17 problem questions (9 from the official sample and past papers, with issue checklists and the summarised March 2026 marking key) and 40 essay questions (10 from the official papers).
 
 ## Contents
 

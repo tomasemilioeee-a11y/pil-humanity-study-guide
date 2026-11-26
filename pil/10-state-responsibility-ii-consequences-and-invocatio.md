@@ -7,6 +7,8 @@
 *ICJ President Sir Humphrey Waldock, 1979.* The Court of the Tehran Hostages case (1980): Iran became responsible through its own failure to protect, then by adopting the militants' conduct.  
 <sub>Rob C. Croes (ANEFO) · CC0 · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Humphrey_Waldock,_International_Court_of_Justice_1979.jpg)</sub>
 
+**Mind map:** [State responsibility](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/state-responsibility.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. Legal consequences (Part Two): the duty of performance continues (Art 29); cessation and, if circumstances require, assurances and guarantees of non-repetition (Art 30); full reparation for injury, material or moral (Art 31, Chorzów).

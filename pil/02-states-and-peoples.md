@@ -2,6 +2,8 @@
 
 # Week 2: States and peoples
 
+**Mind map:** [States and peoples](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/states-peoples.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. Statehood criteria (Montevideo Art 1, reflecting custom): permanent population (no minimum); defined territory (borders need not be settled — North Sea para 46); effective government (strict at birth, loose for existing States; Tinoco: a de facto government binds the State); capacity to enter into relations, i.e. independence (puppet States fail: Manchukuo, TRNC).
@@ -40,6 +42,21 @@
 - Lecture 2 opens with an 'old debate': the Valladolid controversy between Sepúlveda and Las Casas (1550) on the status of indigenous political entities.
 - 'Subject of international law' is a descriptive, doctrinal concept, not a legal term of art. Three approaches to identifying subjects, including the purely European perspective (the Bilad Chinguitti in Western Sahara) and the ICJ's functional approach in Reparation.
 - Summary slide: States have absolute personality and peoples the right to self-determination; States make international law.
+- Identifying subjects, three approaches (slide 7): a purely European perspective (Western Sahara paras 148–152: the Bilad Shinguitti had no personality distinct from its emirates and tribes); the State as the model, looking for State-like entities (Cameroon v Nigeria paras 205–209 on the Kings and Chiefs of Old Calabar); and the possession of rights and obligations, as in Reparation.
+- Summary slide 11 in full: States have absolute personality and peoples the right to self-determination; 'surviving historical' subjects are the Holy See and the Sovereign Order of Malta (Spruyt); IOs have functional personality and law-making powers only if their members gave them, and only as far as their functions require; individuals and corporations have limited personality.
+- Montevideo beyond Art 1 (slide 14 notes): a federal State is one person (Art 2); political existence is independent of recognition (Art 3); juridical equality (Art 4); recognition is unconditional and irrevocable (Art 6) and may be express or tacit (Art 7); no State may intervene in another's affairs (Art 8). An earlier formula: Deutsche Continental Gas-Gesellschaft v Polish State (1929): a territory, a people and a public power over both.
+- Territory covers internal waters, the territorial sea and the airspace above (Nicaragua para 212; Chicago Convention Art 1; UNCLOS). Title passes by treaty or by tacit agreement inferred from conduct, because the law looks to the parties' intentions, not to form (Pedra Branca para 120).
+- Uti possidetis in application: rely on the colonial titles as the colonial authorities interpreted and applied them (Benin/Niger 2005 para 140). Title prevails over effectivités, which count only where there is no title (Burkina Faso/Mali para 68, applied to Bakassi in Cameroon v Nigeria).
+- Effective government (slide 23): it is needed so that someone protects third States' rights in the territory; a revolutionary government binds the State (Tinoco); and 'failed States' such as Somalia, Afghanistan, Bosnia-Herzegovina and Cambodia keep their statehood despite losing effective government.
+- Capacity to enter into relations, 'still relevant?' (slide 24): nineteenth- and early twentieth-century writers (Lawrence 1895; Anzilotti 1929) used it to deny personality to non-European polities. Today it essentially means independence.
+- Types of recognition (slide 25): de jure or de facto; premature or late; formal, or informal through admission to IOs, UN membership or direct treaty relations. Constitutive-era examples (slide 27): Island of Palmas (contracts with native princes are not treaties) and Oppenheim (1905: a State becomes an international person 'through recognition only and exclusively').
+- Kosovo para 81 lists the declarations the SC condemned: Southern Rhodesia (Res 216 and 217 (1965)), northern Cyprus (Res 541 (1983)) and the Republika Srpska (Res 787 (1992)). They were illegal because of force or jus cogens breaches, not because they were unilateral.
+- Sovereign equality (Res 2625, slide 32): juridical equality; the rights inherent in full sovereignty; respect for other States' personality; inviolable territorial integrity and political independence; free choice of political, social, economic and cultural systems; and good-faith compliance. Its manifestations (slide 33): no force, consent as the basis of jurisdiction, non-intervention, equal rights and self-determination, territoriality, and State immunities.
+- Self-determination versus the principle of nationalities (slides 36–37): in 1920 the Åland jurists held it was not yet a positive rule; national groups had no right to separate 'by the simple expression of a wish', and disposing of territory was an attribute of every definitively constituted State's sovereignty.
+- Res 1514 paras 1–3 (slide 38): alien subjugation denies fundamental human rights; all peoples have the right to self-determination; and 'inadequacy of political, economic, social or educational preparedness should never serve as a pretext for delaying independence'.
+- Who is a people (slides 39–40): Kosovo para 79 (a right to independence for non-self-governing territories and peoples under alien subjugation, domination and exploitation); Quebec para 111 (no right of component parts to secede unilaterally); Western Sahara para 59 (the GA may dispense with consulting a population that is not a 'people', or where consultation is unnecessary).
+- Attributes of peoples' personality (slides 41–44): the choice of status (Res 1541; Western Sahara para 75); the territorial integrity of a non-self-governing territory, whose status is 'separate and distinct' from the administering State (Res 2625; Chagos; OPT 2024); permanent sovereignty over natural resources (Res 1803 (1962)); wars of national liberation as international armed conflicts (AP I Art 1(4)); and sea-level rise affecting self-determination (Climate AO 2025 para 357).
+- Working group readings for Week 2: Chagos paras 25–53 and 139–182; Kosovo paras 51 and 57–122; OPT AO 2024 paras 230–243.
 
 ## Cases and materials
 
@@ -99,6 +116,27 @@ The League was competent over the dispute. Finland, which declared independence 
 
 **Use it for:** Effective government as a condition of statehood at birth; self-determination of a minority did not override sovereignty.
 
+### Western Sahara
+*ICJ Advisory Opinion · 1975*
+
+Western Sahara was not terra nullius when Spain colonised it. There were legal ties of allegiance between the Sultan of Morocco and some tribes, and some land rights of the Mauritanian entity, but no ties of territorial sovereignty, so nothing displaced Res 1514 and the free and genuine expression of the people's will (para 162). The GA may dispense with consultation where a population is not a 'people' (para 59); Res 1541 offers independence, free association or integration (para 75); the Bilad Shinguitti lacked a personality distinct from its tribes (para 149).
+
+**Use it for:** Self-determination of non-self-governing territories; who is a 'people'; the Eurocentric 'subject' test.
+
+### Land and Maritime Boundary (Cameroon v Nigeria)
+*ICJ · 2002*
+
+Sovereignty over the Bakassi Peninsula lay with Cameroon under the 1913 Anglo-German Agreement. The 1884 treaty with the Kings and Chiefs of Old Calabar created a colonial protectorate, not a relationship with a State, so Britain could cede Bakassi (paras 205–209). Nigeria's effectivités could not displace the title (applying Burkina Faso/Mali para 68).
+
+**Use it for:** Title versus effectivités; State-like entities in the colonial period.
+
+### Pedra Branca/Pulau Batu Puteh (Malaysia/Singapore)
+*ICJ · 2008*
+
+Sovereignty over Pedra Branca passed to Singapore through the parties' conduct: Johor's 1953 statement disclaiming ownership and Malaysia's silence in the face of Singapore's acts à titre de souverain. Passing of sovereignty may be by treaty or by tacit agreement from conduct; the law emphasises the parties' intentions, not form (para 120). Middle Rocks went to Malaysia.
+
+**Use it for:** Title by tacit agreement and acquiescence.
+
 ## Test yourself
 
 <details><summary>Open the questions (answers are folded under each)</summary>
@@ -156,6 +194,30 @@ ICC PTC I (2021, Palestine): asking whether an entity is a 'State' for the purpo
 <details><summary>Answer</summary>
 
 Somalia v Woodhouse Drake (1993): whether it is the constitutional government; the degree and nature of its administrative control over the territory; the UK government's dealings with it; and, in marginal cases, its international recognition. Internationally, de jure recognition requires effective control with a reasonable prospect of permanence and independence from foreign control (contrast Libya's NTC, 2011).
+
+</details>
+
+**Q. What did Western Sahara (1975) decide, and why does it matter?**
+
+<details><summary>Answer</summary>
+
+The territory was not terra nullius at colonisation. Ties of allegiance to Morocco's Sultan and some Mauritanian land rights existed, but no ties of territorial sovereignty, so Res 1514 and the people's free and genuine will govern (para 162). Para 59: the GA may dispense with consultation; para 75: the Res 1541 options.
+
+</details>
+
+**Q. How does title relate to effectivités in a territorial dispute?**
+
+<details><summary>Answer</summary>
+
+Where they conflict, the holder of the title prevails; effectivités count where there is no title, or to show how an unclear title was applied (Burkina Faso/Mali para 68; Cameroon v Nigeria on Bakassi; Benin/Niger para 140). Title can also pass by tacit agreement inferred from conduct (Pedra Branca para 120).
+
+</details>
+
+**Q. What attributes of legal personality do peoples have (Lecture 2)?**
+
+<details><summary>Answer</summary>
+
+A right to choose their status (Res 1541; Western Sahara para 75); the territorial integrity of their territory (Res 2625; Chagos); permanent sovereignty over natural resources (Res 1803); a special status in armed conflict (AP I Art 1(4)); and, per the Climate AO para 357, protection against sea-level rise eroding these rights.
 
 </details>
 

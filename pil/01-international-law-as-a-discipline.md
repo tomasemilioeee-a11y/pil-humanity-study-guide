@@ -35,6 +35,10 @@
 - Lecture 1 (Marhold) asks three questions: what is international law (Restatement definition); is it a European invention (jus gentium versus 'law among nations', 'international law' as Bentham's coinage); is it really law?
 - The domestic-law analogy diagram: vertical national systems (legislature, executive, courts over individuals) versus horizontal PIL between States. Charter Art 23 illustrates hierarchy within formal equality.
 - The three challenges taught: the domestic analogy (law as coercive command), classical realism ('international law can merely ratify the fate of arms and the arbitration of force'), and Hart's analytical theory (primary versus secondary rules).
+- Slide 15: 'a European invention?' splits into three questions: the term ('jus gentium', 'law among nations', 'international law'), the science of international law, and its norms. European origins of the vocabulary do not make the norms themselves European.
+- Slide 16 lists a fourth objection besides Austin, the realists and Hart: post-modern doubts about the normative character of international law (rational choice theories, critical legal studies).
+- Behind the domestic-law analogy (slide 19 notes): Kelsen defines law as 'a coercive order' with socially organised sanctions, which sets it apart from religious and merely moral orders (Principles of International Law, p 5). Aron adds that international law has 'neither indisputable interpretation nor effective sanction' and so remains 'prescriptive like morality'.
+- Three arguments for legal character (slides 21–24): (1) the actors' own perceptions: Guy de Lacharrière, a government lawyer, argues that if governments believe international law exists and take it into account, it exists by that very fact; (2) a better definition of law and sanctions: nullity, inopposability and international responsibility are its sanctions, and Santi Romano's institutional theory grounds obligation in an organised community rather than in coercion; (3) compliance: Henkin, with the follow-up question which kinds of obligations are kept more than others.
 
 ## Cases and materials
 
@@ -85,6 +89,22 @@ Austin: no sovereign command backed by sanction. Realists (Morgenthau, Aron): la
 <details><summary>Answer</summary>
 
 UK (dualist): no direct effect until Parliament enacts it (Thomas v Baptiste; JH Rayner), though courts may use it to interpret statutes. Netherlands (monist): treaty provisions that are binding on everyone by their content apply once published and prevail over conflicting statutes (Dutch Constitution Arts 93–94). Either way the State remains internationally responsible for a breach (VCLT Art 27; ARSIWA Art 3).
+
+</details>
+
+**Q. Which four objections to the legal character of international law does Lecture 1 list?**
+
+<details><summary>Answer</summary>
+
+The domestic-law analogy (Austin, with Kelsen's 'coercive order'), classical realism (Morgenthau, Aron), Hart's missing secondary rules, and post-modern doubts (rational choice theories, critical legal studies).
+
+</details>
+
+**Q. What are the three arguments for international law being 'law' on the Lecture 1 slides?**
+
+<details><summary>Answer</summary>
+
+(1) The actors' perceptions: governments treat it as law (de Lacharrière). (2) A better definition of law and sanctions: nullity, inopposability and international responsibility, and Santi Romano's institutional theory. (3) Compliance: Henkin's 'almost all nations … almost all of the time', asking which obligations are kept more than others.
 
 </details>
 

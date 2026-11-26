@@ -43,6 +43,13 @@
 - Cançado Trindade's separate opinion in Germany v Italy (2011 Order, Greece intervening, para 34) is quoted on individuals as subjects.
 - 'Objective' personality is tested against VCLT Art 34, Reparation, the ICC PTC I decision of 2018 (para 48) and Crawford's view (Brownlie, 9th edn, p 160).
 - IOs on the international plane: what rules bind them (WHO–Egypt para 37), and the distinction between the international plane and domestic legal orders.
+- Direct rights for individuals (slide 9): treaties may give individuals direct rights, 'particularly where the treaty provides a dispute resolution mechanism capable of being operated by such individuals acting on their own behalf and without their national state's involvement or even consent' (Ecuador v Occidental [2005] EWCA Civ 1116 para 19).
+- Defining an IO, three texts (slides 16–17): VCLT Art 2(1)(i) ('intergovernmental organization'); ARIO Art 2(a) (established by a treaty or other instrument governed by IL, with its own legal personality, possibly with non-State members); and the ILC's provisional 2026 draft guidelines on disputes to which IOs are parties, guideline 2(a), which adds 'at least one organ capable of expressing a will distinct from that of its members'. Schermers and Blokker: an international agreement, at least one organ with a will of its own, established under IL.
+- Two planes of an IO's functional personality (slide 18): the international plane (which rules of public international law bind the IO) and the institutional plane (the internal law of each IO: its 'rules of the organization', ARIO Art 2(b): constituent instruments, decisions, resolutions and established practice).
+- Why does custom bind IOs? (slides 22–23) Reinisch: custom binds all subjects, even new States that could not take part in forming it, so it binds IOs because they have personality. The slide asks what is problematic: personality alone does not explain which rules apply, since IOs lack territory and general competence. Bordin's alternative (The Analogy between States and International Organizations, CUP 2019, ch 2): a relevant similarity (both are legally autonomous subjects on the international plane) plus a normative justification (the default rules for States acting alone should apply when they act together through a separate legal person).
+- The stakes, illustrated (slides 24–27): in the Jordan Referral re Al-Bashir Appeal (ICC Appeals Chamber, 2019) the Court found no customary Head-of-State immunity before international courts (para 113), because international courts act 'on behalf of the international community as a whole', so par in parem does not apply (para 115). The implication to weigh: States acting together through an international court would then do what none of them could do alone.
+- Institutional law (slides 28–31): two ideas to hold together, the principle of speciality (WHO AO para 25) and 'unity within diversity' (Schermers and Blokker: each IO is unique, but new IOs never 'start from scratch'). Its core topics: membership and withdrawal, organs and their functioning, financing, purposes, functions and powers (including secondary law), accountability, and privileges and immunities.
+- Interpreting constituent instruments (slides 32–37): the VCLT rules (Art 31, including subsequent practice under 31(3)(b) and relevant rules under 31(3)(c), and Art 32), adjusted for treaties 'of a particular type' (WHO AO para 19) through effective interpretation (implied powers: Reparation; Certain Expenses) and established practice (Namibia on abstention). Limit: the WHO's 'wide international responsibilities' under Charter Art 57 are confined to public health and cannot encroach on other parts of the UN system.
 
 ## Cases and materials
 
@@ -80,6 +87,13 @@ The ICC has objective international legal personality (para 48), drawing on Repa
 The Netherlands was responsible for Dutchbat's handing over of Bosnian Muslim men from the Srebrenica compound in July 1995. Applying effective control (ARIO Art 7, ARSIWA Art 8), conduct can be attributed to more than one actor; that the UN had command did not exclude attribution to the Netherlands, which in fact controlled the evacuation.
 
 **Use it for:** Dual attribution in peace operations; contrast Behrami & Saramati (ECtHR 2007, 'ultimate authority and control' → UN).
+
+### Jordan Referral re Al-Bashir Appeal
+*ICC Appeals Chamber · 2019*
+
+Jordan breached its duty to arrest and surrender Al-Bashir. There is no customary Head-of-State immunity before an international court (para 113); international courts act on behalf of the international community as a whole, so par in parem non habet imperium does not apply to them (para 115). Art 27(2) of the Rome Statute removes immunity before the ICC.
+
+**Use it for:** Whether IOs and international courts can do collectively what States cannot do individually; immunities before international courts.
 
 ## Test yourself
 
@@ -122,6 +136,30 @@ Personality opposable to non-members, as the ICJ held for the UN (50 States repr
 <details><summary>Answer</summary>
 
 Whoever had effective control over the specific conduct (ARIO Art 7), and possibly both (dual attribution, Nuhanović 2013). The ECtHR's 'ultimate authority and control' test in Behrami & Saramati (2007) attributed the conduct to the UN alone; Al-Jedda (2011) distinguished it and held the UK responsible in Iraq. Hernández criticises Behrami because troop contributors keep national command but escape liability.
+
+</details>
+
+**Q. What is the difference between an IO's international plane and its institutional plane?**
+
+<details><summary>Answer</summary>
+
+The international plane is about which rules of public international law bind the IO (general IL, its constitution, its agreements: WHO–Egypt para 37). The institutional plane is the IO's internal law, its 'rules of the organization' (ARIO Art 2(b): constituent instruments, decisions, resolutions and established practice).
+
+</details>
+
+**Q. Why does customary international law bind IOs, and what is wrong with the simple answer?**
+
+<details><summary>Answer</summary>
+
+Simple answer (Reinisch): custom binds all subjects, so it binds IOs because they have personality. The problem: personality does not tell you which rules fit an entity without territory or general competence. Bordin's analogy: IOs and States are both autonomous subjects on the international plane, and default rules for States acting alone should apply when they act together through an IO.
+
+</details>
+
+**Q. What did the ICC Appeals Chamber hold in the Jordan Referral (2019), and why is it controversial?**
+
+<details><summary>Answer</summary>
+
+No customary Head-of-State immunity exists before international courts (para 113), which act on behalf of the international community, so par in parem does not apply (para 115). Controversial because it lets States acting together through a court do what none could do alone, including against a non-party's leader.
 
 </details>
 

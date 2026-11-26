@@ -7,6 +7,8 @@
 *The International Criminal Court, The Hague.* Arts 8 bis, 15 bis and 15 ter: why the ICC cannot try Russian leaders for aggression against Ukraine.  
 <sub>Ymblanter · CC BY-SA 4.0 · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_Hague_International_Criminal_Court_building_seen_from_Maurits_Kiekpad.jpg)</sub>
 
+**Mind map:** [The prohibition of the use of force](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/use-of-force.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. From Nuremberg's 'crimes against peace' ('the supreme international crime') to the Rome Statute Art 5, with the definition deferred to Kampala (2010). Activation took effect on 17 July 2018 (ASP decision of December 2017).

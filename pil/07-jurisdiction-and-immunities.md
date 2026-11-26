@@ -7,6 +7,8 @@
 *Augusto Pinochet, official portrait.* Pinochet (No 3), House of Lords 1999: no functional immunity for torture under the Torture Convention for a former Head of State.  
 <sub>Ministerio de Relaciones Exteriores de Chile · CC BY 2.0 cl · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Augusto_Pinochet_foto_oficial_(cropped)(2).jpg)</sub>
 
+**Mind map:** [Jurisdiction and immunities](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/jurisdiction-immunities.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. There are three types of jurisdiction: prescriptive (making law), adjudicative (courts) and enforcement (arrest, seizure). Enforcement is strictly territorial without consent (Lotus, p. 18).

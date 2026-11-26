@@ -7,6 +7,8 @@
 *Centre William Rappard, Geneva (1926), today the WTO headquarters.* WTO dispute settlement is compulsory, exclusive and contentious; the Appellate Body has been paralysed since 2019.  
 <sub>Unknown author · CC BY-SA 3.0 · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cwr_aerial_1926.jpg)</sub>
 
+**Mind map:** [International economic law](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/economic-law.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. Core GATT disciplines: Art I most-favoured-nation treatment, Art III national treatment for 'like products', Art XI elimination of quantitative restrictions, Art II tariff bindings.

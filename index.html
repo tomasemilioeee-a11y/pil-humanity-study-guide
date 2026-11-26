@@ -19,7 +19,7 @@
   --good:#1B7649; --good-soft:#DCF0E5; --warn:#8C5D00; --warn-soft:#FAEDCC; --bad:#B0372A; --bad-soft:#F8E0DC;
   --marker:#FFE36A; --marker-ink:#2A2200;
   --gold:#8A5A00; --gold-rule:#D4A53C; --paper:#FBF6EA; --paper-line:#EADCB9;
-  --mm-src:#3D4FB8; --mm-scope:#0F7A75; --mm-sd:#B3263E; --mm-sc:#1D6FB8; --mm-consent:#2E7D32; --mm-contest:#A65A00; --mm-agg:#7B2D8E; --mm-debate:#4A5568;
+  --mm-c1:#3D4FB8; --mm-c2:#0F7A75; --mm-c3:#B3263E; --mm-c4:#1D6FB8; --mm-c5:#2E7D32; --mm-c6:#A65A00; --mm-c7:#7B2D8E; --mm-c8:#4A5568;
   --on-accent:#FFFFFF;
   --hero-pil:radial-gradient(110% 90% at 100% 0%,rgba(94,234,212,.30) 0%,transparent 55%),linear-gradient(150deg,#2F55E4 0%,#1B2E95 58%,#131D5C 100%);
   --hero-ph:radial-gradient(110% 90% at 100% 0%,rgba(255,166,107,.32) 0%,transparent 55%),linear-gradient(150deg,#B42F6C 0%,#701B48 58%,#42102C 100%);
@@ -37,7 +37,7 @@
   --good:#63D099; --good-soft:#12301F; --warn:#EAB95A; --warn-soft:#33280F; --bad:#F28E80; --bad-soft:#3A1A16;
   --marker:rgba(255,214,86,.20); --marker-ink:#FFE7A0;
   --gold:#E6B85C; --gold-rule:#B98A2E; --paper:#1D1A13; --paper-line:#3A3220;
-  --mm-src:#97A4FF; --mm-scope:#4FD1C5; --mm-sd:#FF8FA0; --mm-sc:#6CB6FF; --mm-consent:#7BD88F; --mm-contest:#F5B456; --mm-agg:#D69AF0; --mm-debate:#B4BFD0;
+  --mm-c1:#97A4FF; --mm-c2:#4FD1C5; --mm-c3:#FF8FA0; --mm-c4:#6CB6FF; --mm-c5:#7BD88F; --mm-c6:#F5B456; --mm-c7:#D69AF0; --mm-c8:#B4BFD0;
   --on-accent:#0B0E15;
   --hero-pil:radial-gradient(110% 90% at 100% 0%,rgba(94,234,212,.20) 0%,transparent 55%),linear-gradient(150deg,#2A3F95 0%,#17215A 60%,#0F1536 100%);
   --hero-ph:radial-gradient(110% 90% at 100% 0%,rgba(255,166,107,.20) 0%,transparent 55%),linear-gradient(150deg,#7A2559 0%,#45163A 60%,#250C1F 100%);
@@ -50,7 +50,7 @@
   --good:#63D099; --good-soft:#12301F; --warn:#EAB95A; --warn-soft:#33280F; --bad:#F28E80; --bad-soft:#3A1A16;
   --marker:rgba(255,214,86,.20); --marker-ink:#FFE7A0;
   --gold:#E6B85C; --gold-rule:#B98A2E; --paper:#1D1A13; --paper-line:#3A3220;
-  --mm-src:#97A4FF; --mm-scope:#4FD1C5; --mm-sd:#FF8FA0; --mm-sc:#6CB6FF; --mm-consent:#7BD88F; --mm-contest:#F5B456; --mm-agg:#D69AF0; --mm-debate:#B4BFD0;
+  --mm-c1:#97A4FF; --mm-c2:#4FD1C5; --mm-c3:#FF8FA0; --mm-c4:#6CB6FF; --mm-c5:#7BD88F; --mm-c6:#F5B456; --mm-c7:#D69AF0; --mm-c8:#B4BFD0;
   --on-accent:#0B0E15;
   --hero-pil:radial-gradient(110% 90% at 100% 0%,rgba(94,234,212,.20) 0%,transparent 55%),linear-gradient(150deg,#2A3F95 0%,#17215A 60%,#0F1536 100%);
   --hero-ph:radial-gradient(110% 90% at 100% 0%,rgba(255,166,107,.20) 0%,transparent 55%),linear-gradient(150deg,#7A2559 0%,#45163A 60%,#250C1F 100%);
@@ -725,7 +725,7 @@ select{appearance:none;-webkit-appearance:none;min-height:44px;border:1px solid 
   }
 
   // ---------- boot ----------
-  Promise.all(["data/pil.json", "data/ph.json"].map(f => fetch(f + "?v=1795650725308").then(r => { if (!r.ok) throw new Error(f); return r.json(); })))
+  Promise.all(["data/pil.json", "data/ph.json"].map(f => fetch(f + "?v=1795734157767").then(r => { if (!r.ok) throw new Error(f); return r.json(); })))
     .then(([pil, ph]) => { C.pil = pil; C.ph = ph; render(true); })
     .catch(() => { $("#view").innerHTML = '<div class="empty">Couldn\'t load the guide data. Reload the page to try again.</div>'; });
 })();

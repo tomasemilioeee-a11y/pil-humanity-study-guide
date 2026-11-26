@@ -7,6 +7,8 @@
 *The boundaries claimed in the North Sea Continental Shelf cases.* Equidistance (Geneva Art 6) had not become custom: practice must be extensive and virtually uniform, with opinio juris (para 77).  
 <sub>International Court of Justice · Public domain · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Continental_shelf_boundaries_parties_insisted_in_ICJ_cases_of_North_Sea_Continental_Shelf.png)</sub>
 
+**Mind map:** [Sources of international law](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/sources.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. Art 38(1) ICJ Statute: treaties, custom, general principles; judicial decisions and teachings as subsidiary means. Beyond Art 38: unilateral declarations (Nuclear Tests 1974), binding SC decisions (Charter Arts 25, 103), soft law as evidence.
@@ -44,6 +46,13 @@
 - Lecture 5 (Marhold) restates the 'traditional framework' from Lotus ('International law governs relations between independent States …') before the two-element doctrine.
 - Practice questions on the slides: whose practice, what practice (ILC Conclusion 6: physical and verbal acts, inaction), abstention (Lotus), 'constant and uniform' (Asylum), time (North Sea), and how to read breaches (Nicaragua paras 186–188).
 - The working group adds the method debate: should custom be identified differently by field (immunities, continental shelf, environment, IHL)? Does judicial ethos matter — activism versus conservatism? One sentence of this earns originality marks.
+- Whose and what practice (slides 11–12, ILC Conclusions 2018): primarily States, sometimes IOs; the conduct of other actors (NGOs, individuals) is not practice, but may be relevant in assessing it (Concl 4(3)). Forms include diplomatic acts and correspondence, conduct on resolutions and treaties, executive and operational conduct 'on the ground', legislative and administrative acts, and national court decisions, with no predetermined hierarchy among them (Concl 6(2)–(3)).
+- Opinio juris with mixed motives (slides 19–20): in Nicaragua v Colombia (2023, paras 77–79) States' practice before the CLCS was 'indicative of opinio juris, even if such practice may have been motivated in part by considerations other than a sense of legal obligation', and opinio juris may be shown 'by induction based on the analysis of a sufficiently extensive and convincing practice'. Contrast Nuclear Weapons para 73: GA resolutions revealing the 'desire' of much of the community are not yet opinio juris.
+- The persistent objector's origins, 'two ambiguous judicial statements' (slides 24–25): Fisheries (1951, p 131: the ten-mile rule 'would appear to be inapplicable as against Norway inasmuch as she has always opposed' it) and Asylum (1950, pp 277–278: any regional custom could not be invoked against Peru, which repudiated it by not ratifying the 1933 and 1939 Montevideo Conventions).
+- The tension (slides 26–28): North Sea para 63 says general customary rules 'must have equal force for all members of the international community' and allow no 'unilateral exclusion exercisable at will'; the Climate AO para 315 adds that 'customary obligations are the same for all States', so a non-party must show equivalent conduct or bear 'the full burden'. The slide asks whether this confirms or undermines the persistent objector.
+- General principles (slide 30): three notions, principles of law in general (good faith, the duty to make reparation), principles derived from domestic legal orders (mostly procedural), and principles derived from the spirit of international law (legality, ex injuria jus non oritur, proportionality). They are subsidiary: courts reach for them when treaty and custom run out. Doctrine mattered far more in the 'infancy' of European international law (Grotius, Vattel) than today (slide 32).
+- Unilateral acts of IOs (slide 37): distinguish acts addressed to the organisation's own organs from acts addressed to others (States, individuals), and the instrumentum (the form, e.g. a 'resolution') from the negotium (its legal content: a binding decision or a mere recommendation).
+- Codification and progressive development (slide 38): the ILC under Charter Art 13(1)(a) (the VCLT, the VCDR, ARSIWA 2001); private codification by the ILA, the Institut de droit international and the ICRC's Customary IHL Study; and the soft law versus hard law debate.
 
 ## Cases and materials
 
@@ -88,6 +97,13 @@ Reprisals against civilians are prohibited by custom; through the Martens Clause
 The climate treaties do not exclude general IL; customary duties of due diligence to prevent significant harm and to cooperate bind all States; non-parties bear the full burden of showing equivalent conduct.
 
 **Use it for:** Treaty–custom interaction; due diligence.
+
+### Question of the Delimitation of the Continental Shelf beyond 200 nm (Nicaragua v Colombia)
+*ICJ · 2023*
+
+Under customary international law, a State's entitlement to an extended continental shelf beyond 200 nautical miles from its baselines may not extend within 200 nautical miles of another State's baselines, so Nicaragua's claim failed (paras 77–79). The Court inferred opinio juris from widespread, long-standing practice before the CLCS, even if partly motivated by other considerations, and noted that opinio juris may be shown by induction from extensive and convincing practice.
+
+**Use it for:** Recent ICJ method on custom: inducing opinio juris from practice with mixed motives.
 
 ## Test yourself
 
@@ -146,6 +162,30 @@ Principles of law generally (good faith, full reparation — Chorzów); principl
 <details><summary>Answer</summary>
 
 Art 53: conflict at conclusion, so the whole treaty is void ab initio (no severance, Art 44(5)) and the parties must eliminate the consequences of acts performed under it (Art 71(1)). Art 64: a new peremptory norm emerges, so the treaty becomes void and terminates from then on, and rights acquired earlier survive so far as their maintenance does not conflict with the new norm (Art 71(2)).
+
+</details>
+
+**Q. Can opinio juris be inferred from practice that States pursue partly for other reasons?**
+
+<details><summary>Answer</summary>
+
+Yes: in Nicaragua v Colombia (2023, paras 77–79) practice before the CLCS was 'indicative of opinio juris' even if partly motivated by other considerations, and opinio juris may be shown 'by induction' from extensive and convincing practice. But the mere 'desire' of the community expressed in GA resolutions is not enough (Nuclear Weapons para 73).
+
+</details>
+
+**Q. Where does the persistent objector doctrine come from, and what pulls against it?**
+
+<details><summary>Answer</summary>
+
+Two ambiguous statements: Fisheries (1951, the ten-mile rule inapplicable against Norway, which always opposed it) and Asylum (1950, Peru repudiated the alleged custom). Against it: North Sea para 63 (customary rules have equal force for all and allow no unilateral exclusion) and the Climate AO para 315 ('customary obligations are the same for all States').
+
+</details>
+
+**Q. How should you analyse a unilateral act of an international organisation?**
+
+<details><summary>Answer</summary>
+
+Ask whom it addresses (the organisation's own organs, or States and others outside it) and separate its form, the instrumentum (e.g. a resolution), from its legal content, the negotium (a binding decision or a recommendation).
 
 </details>
 

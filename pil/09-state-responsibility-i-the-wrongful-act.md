@@ -7,6 +7,8 @@
 *Greenpeace's Rainbow Warrior at Scheveningen.* Rainbow Warrior (1990): distress justified evacuating Major Mafart, but France breached its obligation by not returning him once the danger passed.  
 <sub>Koen Suyk / Anefo · CC0 · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Schip_Rainbow_Warrior_van_Greenpeace_in_Scheveningen,_Bestanddeelnr_930-2632.jpg)</sub>
 
+**Mind map:** [State responsibility](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/state-responsibility.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. Art 1 ARSIWA: every internationally wrongful act of a State entails its responsibility. Art 2: an internationally wrongful act is conduct (act or omission) that is (a) attributable to the State and (b) a breach of an international obligation. Damage and fault are not general requirements.

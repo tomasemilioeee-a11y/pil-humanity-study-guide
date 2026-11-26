@@ -7,6 +7,8 @@
 *The Gabčíkovo-Nagymaros Project and Variant C on the Danube.* Gabčíkovo (1997): necessity does not terminate a treaty; Variant C was a disproportionate countermeasure.  
 <sub>International Court of Justice · Public domain · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gab%C4%8D%C3%ADkovo-Nagymaros_map_no.3.png)</sub>
 
+**Mind map:** [The law of treaties](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/treaties.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. Scope (VCLT Arts 1–2(1)(a)): an agreement between States, in writing, governed by IL, 'whatever its particular designation'. The test is intent to be bound, read from text and circumstances (Qatar v Bahrain: Doha Minutes; Somalia v Kenya: MOU). Non-registration (Charter Art 102) does not affect validity. The VCLT is residual; excludes agreements with IOs (Art 3), succession, responsibility, hostilities (Art 73); non-retroactive (Art 4), but most of it reflects custom.
@@ -43,6 +45,15 @@
 - Lecture 4 (Marhold) frames two basic principles of the VCLT: safeguarding sovereignty (freedom to opt out of its rules, reservations, consent) and restricting sovereignty for the common interest (pacta sunt servanda Art 26, Art 18, jus cogens).
 - A slide contrasts treaty law (conditions for lawfully denouncing or suspending treaties) with State responsibility (grounds precluding wrongfulness) — the Gabčíkovo separation, a classic exam link to weeks 10–11.
 - Qatar v Bahrain and Somalia v Kenya quoted on 'whatever its particular designation'; the VCLT is 'subsidiary in nature', applying only where the treaty has no rule of its own.
+- What the VCLT leaves out (slides 10–11): agreements with or between other subjects (Art 3; see the 1986 Vienna Convention between States and IOs), and, under Art 73, State succession (1978 Vienna Convention on Succession of States in respect of Treaties), State responsibility (ARSIWA 2001) and the outbreak of hostilities (ILC Articles on the Effects of Armed Conflicts on Treaties 2011). Art 4: the VCLT applies only to treaties concluded after it entered into force for the States concerned; older treaties follow the customary equivalents.
+- Custom and the VCLT (slide 15): a treaty rule can bind third States as custom (Art 38), and invalidity, termination or withdrawal does not affect obligations a State has under international law independently of the treaty (Art 43).
+- Entry into force (slides 20–21): as the treaty provides, or once all negotiating States have consented (Art 24); thresholds vary. The Paris Agreement needed 55 parties accounting for 55 per cent of global greenhouse gas emissions: the threshold was met on 5 Oct 2016 and it entered into force on 4 Nov 2016.
+- Anatomy of a treaty (slides 24–26, the UN Charter as the example): a preamble (part of the context, and a guide to object and purpose), substantive provisions, and procedural or final provisions (entry into force, reservations, amendment, withdrawal, depositary). The ILC prepared the VCLT as a codification project.
+- Interpretative declaration or reservation? (slide 31) Finland declared its 'understanding' that the UN Convention on Jurisdictional Immunities does not apply to military activities: a genuine interpretative declaration. Contrast Belilos v Switzerland (ECtHR), where a 'declaration' that modified the effect of Art 6 ECHR was in substance an invalid reservation.
+- Reciprocity and human rights treaties (slides 37–41): the US reserved the right to impose the death penalty for crimes committed under 18, against ICCPR Art 6(5). France objected that the reservation is invalid as incompatible with object and purpose, yet said this did not prevent the Covenant entering into force between them. HRC General Comment 24: human rights obligations are 'not a web of inter-State exchanges', and the absence of protest does not make a reservation compatible.
+- Art 31 in full (slides 49–51 and WG slide 4): the context includes the text with its preamble and annexes, any agreement made by all parties in connection with the treaty's conclusion (31(2)(a)), and any instrument made by one or more parties and accepted by the others (31(2)(b)); a special meaning applies if the parties so intended (31(4)). Three classic approaches: objective (the text), subjective (the parties' intention) and teleological (object and purpose). The ILC set no hierarchy (the 'crucible'), but in practice the ICJ starts with the text.
+- Treaties in several languages (Art 33, WG slide 7): each authentic text is equally authoritative unless the treaty says one prevails; the terms are presumed to have the same meaning in each; if Arts 31–32 cannot remove a difference, adopt the meaning that best reconciles the texts in light of the object and purpose.
+- Working group on interpretation (WG slides 10–14): Costa Rica v Nicaragua paras 42–71 (para 48 on interpretation in general; the parties' readings of 'con objetos de comercio', paras 45 and 50; context, para 51; Nicaragua's argument, para 58; common intention, paras 63–64; generic terms, para 66); Ukraine v Russia (2024) paras 42–53 on the meaning of 'funds'; and IACtHR OC-23/17 paras 40–45 (the 'living instrument', para 43; environmental rules via Art 31(3)(c), para 44), read with Pauwelyn and Elsig.
 
 ## Cases and materials
 
@@ -181,6 +192,30 @@ Permissibility school: it is invalid objectively, acceptance cannot cure it, and
 <details><summary>Answer</summary>
 
 Only the ECJ in Racke (1998): the outbreak of civil war in Yugoslavia allowed the EC to suspend its trade agreement. The ICJ rejected it in Fisheries Jurisdiction (1973) and Gabčíkovo (1997, para 104); boundary treaties are excluded (Art 62(2)(a)), and a party cannot rely on a change it caused (Art 62(2)(b)).
+
+</details>
+
+**Q. What counts as 'context' under Art 31(2) VCLT, and when does a special meaning apply?**
+
+<details><summary>Answer</summary>
+
+The text including its preamble and annexes; any agreement relating to the treaty made by all the parties in connection with its conclusion (31(2)(a)); and any instrument made by one or more parties in connection with the conclusion and accepted by the others (31(2)(b)). A special meaning applies only if it is established that the parties intended it (31(4)).
+
+</details>
+
+**Q. How are treaties authenticated in two or more languages interpreted (Art 33)?**
+
+<details><summary>Answer</summary>
+
+Each authentic text is equally authoritative unless the treaty says otherwise, and the terms are presumed to have the same meaning in each. If Arts 31–32 cannot remove a difference, adopt the meaning that best reconciles the texts having regard to the object and purpose.
+
+</details>
+
+**Q. What do the US reservation to ICCPR Art 6(5) and France's objection show?**
+
+<details><summary>Answer</summary>
+
+The US reserved the right to execute people for crimes committed under 18. France called the reservation invalid as contrary to object and purpose, but still let the Covenant apply between them. The reciprocal 1951 model fits human rights treaties badly: HRC GC 24 says silence does not imply a reservation is compatible.
 
 </details>
 
