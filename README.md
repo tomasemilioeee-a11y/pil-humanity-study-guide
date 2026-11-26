@@ -16,6 +16,17 @@ A student-made revision guide for the two LL.M finals:
 - [Jurisdiction and immunities](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/jurisdiction-immunities.html)
 - [International economic law](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/economic-law.html)
 - [State responsibility](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/state-responsibility.html)
+- [Classifying armed conflict and co-applying IHRL](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/classification.html)
+- [The law of occupation](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/occupation.html)
+- [Extraterritorial human rights jurisdiction](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/extraterritoriality.html)
+- [Human rights mechanisms](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/hr-mechanisms.html)
+- [International criminal justice and the ICC](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/icc.html)
+- [The right to life in war and peace](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/right-to-life.html)
+- [Liberty, detention and fair trial](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/liberty.html)
+- [Torture, ill-treatment, starvation and aid](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/torture.html)
+- [War crimes](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/war-crimes.html)
+- [Crimes against humanity](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/crimes-against-humanity.html)
+- [Genocide](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/genocide.html)
 
 Inside: 371 rules to know cold, 177 cases, 43 key passages quoted from judgments and treaties, 253 self-test cards, 17 problem questions (9 from the official sample and past papers, with issue checklists and the summarised March 2026 marking key) and 40 essay questions (10 from the official papers).
 

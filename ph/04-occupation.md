@@ -7,6 +7,8 @@
 *The West Bank barrier.* Wall AO (2004) and OPT AO (2024): occupation law, settlements, self-determination and third-State duties.  
 <sub>Justin McIntosh · CC BY 2.0 · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Israeli_West_Bank_Barrier.jpg)</sub>
 
+**Mind map:** [The law of occupation](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/occupation.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. Art 42 of the Hague Regulations: territory is occupied when actually placed under the authority of the hostile army. The test is effective control: foreign forces able to exert authority, without the sovereign's consent, and the sovereign unable to exercise its authority (Armed Activities para 173; ICTY Naletilić). The GCIV regime applies from first contact for persons (the Pictet functional approach).

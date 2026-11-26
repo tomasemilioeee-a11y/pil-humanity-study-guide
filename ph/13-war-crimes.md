@@ -7,6 +7,8 @@
 *Vedran Smailović plays in the ruined National Library, Sarajevo, 1992.* The siege of Sarajevo: Galić, terror against the civilian population as a war crime.  
 <sub>Mikhail Evstafiev · CC BY-SA 3.0 · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Evstafiev-bosnia-cello.jpg)</sub>
 
+**Mind map:** [War crimes](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/war-crimes.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. Definition (Tadić Jurisdiction para 94): a serious violation of a rule of IHL (treaty or custom) that protects important values and entails individual criminal responsibility under IL.

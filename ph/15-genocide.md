@@ -12,6 +12,8 @@
 *Srebrenica–Potočari memorial.* Krstić: the killing of some 7,000–8,000 Bosnian Muslim men at Srebrenica was genocide; a substantial, emblematic 'part' of the group.  
 <sub>Michael Büker · CC BY-SA 3.0 · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Srebrenica_massacre_memorial_gravestones_2009_1.jpg)</sub>
 
+**Mind map:** [Genocide](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/genocide.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. Genocide Convention Art II (copied in Rome Art 6): acts committed with intent to destroy, in whole or in part, a national, ethnical, racial or religious group, as such: (a) killing members; (b) causing serious bodily or mental harm; (c) deliberately inflicting conditions of life calculated to bring about physical destruction; (d) imposing measures to prevent births; (e) forcibly transferring children.

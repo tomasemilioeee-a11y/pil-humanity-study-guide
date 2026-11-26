@@ -7,6 +7,8 @@
 *Detainees at Camp X-Ray, Guantánamo Bay, January 2002.* The 'legal black hole': status, grounds, treatment and review (Rasul, Boumediene, Hassan).  
 <sub>Shane T. McCoy, U.S. Navy · Public domain · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Camp_x-ray_detainees.jpg)</sub>
 
+**Mind map:** [Liberty, detention and fair trial](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/liberty.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. ICCPR Art 9 (no arbitrary arrest or detention; reasons, prompt appearance before a judge, habeas corpus, compensation; GC 35). ECHR Art 5 (an exhaustive list of permitted grounds in 5(1)(a)–(f); safeguards in 5(2)–(5)).

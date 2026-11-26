@@ -7,6 +7,8 @@
 *The Grand Chamber courtroom of the European Court of Human Rights, Strasbourg.* Al-Skeini, Georgia v Russia (II), Ukraine and the Netherlands v Russia: who is 'within the jurisdiction'?  
 <sub>Adrian Grycuk · CC BY-SA 3.0 pl · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Courtroom_European_Court_of_Human_Rights_01.JPG)</sub>
 
+**Mind map:** [Extraterritorial human rights jurisdiction](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/extraterritoriality.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. Human rights treaties apply to persons 'within the jurisdiction' of the State (ECHR Art 1; ICCPR Art 2(1) 'within its territory and subject to its jurisdiction', read disjunctively by the HRC in GC 31 para 10 and the ICJ in the Wall).

@@ -7,6 +7,8 @@
 *The Battle of Solferino (1859), which led Henry Dunant to found the Red Cross.* The origins of modern IHL in the suffering Dunant witnessed.  
 <sub>Unknown author · Public domain · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Battaglia_di_Solferino_(Henry_Dunant).jpg)</sub>
 
+**Mind map:** [Classifying armed conflict and co-applying IHRL](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/classification.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. IAC (CA2): any resort to armed force between States, with no intensity threshold (Tadić para 70; ICRC Commentary). It includes total or partial occupation, even without resistance. API Art 1(4) covers wars of national liberation.

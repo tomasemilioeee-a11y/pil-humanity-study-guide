@@ -2,6 +2,8 @@
 
 # Lecture 15: Torture and ill-treatment; starvation and aid
 
+**Mind map:** [Torture, ill-treatment, starvation and aid](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/torture.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. The prohibition of torture is jus cogens and absolute (CAT; ICCPR Art 7; ECHR Art 3; Furundžija paras 153–157; Belgium v Senegal para 99). It is non-derogable and has no exceptions for terrorism or the 'ticking bomb' (Gäfgen v Germany: threatening a suspect to save a child's life was still inhuman treatment).

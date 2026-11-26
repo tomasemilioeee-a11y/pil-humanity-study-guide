@@ -2,6 +2,8 @@
 
 # Lectures 8–9: Human rights mechanisms
 
+**Mind map:** [Human rights mechanisms](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/hr-mechanisms.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. Charter-based UN system: the Human Rights Council (47 members), Universal Periodic Review (peer review of all States), Special Procedures (independent rapporteurs and working groups), Commissions of Inquiry and fact-finding missions (Syria, Myanmar, Ukraine, OPT), and the OHCHR (High Commissioner).

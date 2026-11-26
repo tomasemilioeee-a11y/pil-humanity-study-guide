@@ -2,6 +2,8 @@
 
 # Lecture 18: Crimes against humanity
 
+**Mind map:** [Crimes against humanity](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/crimes-against-humanity.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. Rome Art 7(1) chapeau: any listed act committed as part of a widespread or systematic attack directed against any civilian population, with knowledge of the attack.

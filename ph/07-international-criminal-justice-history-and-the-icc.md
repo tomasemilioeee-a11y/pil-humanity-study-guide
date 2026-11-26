@@ -7,6 +7,8 @@
 *Defendants in the dock at the Nuremberg trial, 1945–46.* 'Crimes against international law are committed by men, not by abstract entities.' (IMT judgment)  
 <sub>Raymond D’Addario · Public domain · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Defendants_in_the_dock_at_nuremberg_trials.jpg)</sub>
 
+**Mind map:** [International criminal justice and the ICC](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/icc.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. IMT Nuremberg (London Charter 1945, Art 6): crimes against peace, war crimes, and CAH (linked to war). Individual responsibility, no defence of superior orders (mitigation only), and official position no bar. 2026 is the 80th anniversary of the judgment.

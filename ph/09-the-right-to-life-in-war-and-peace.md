@@ -2,6 +2,8 @@
 
 # Lecture 13: The right to life in war and peace
 
+**Mind map:** [The right to life in war and peace](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/right-to-life.html), interactive, with recall mode and search.
+
 ## Rules to know cold
 
 1. ICCPR Art 6: no one shall be arbitrarily deprived of life. HRC GC 36: arbitrariness includes unlawfulness, inappropriateness, injustice, lack of predictability and due process, and unreasonableness, necessity and proportionality.
