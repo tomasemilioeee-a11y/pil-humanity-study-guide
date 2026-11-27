@@ -131,6 +131,7 @@ h1,h2,h3{margin:0;text-wrap:balance}
 .searching .lbl{opacity:.36}
 .searching .lbl.hit,.searching .lbl.path{opacity:1}
 .lbl.hit{box-shadow:0 0 0 3px var(--hit)}
+.lbl.active{box-shadow:0 0 0 3px color-mix(in srgb,var(--c) 60%,transparent)}
 
 /* detail sheet */
 .scrim{position:fixed;inset:0;z-index:39;background:var(--scrim)}
@@ -160,6 +161,8 @@ h1,h2,h3{margin:0;text-wrap:balance}
   .sheet{left:auto;top:0;width:410px;max-height:none;border-radius:0;transform:translateX(105%);box-shadow:-12px 0 40px -12px rgba(0,0,0,.35);
     padding:calc(16px + env(safe-area-inset-top,0px)) calc(22px + env(safe-area-inset-right,0px)) 22px 22px}
   .sheet .grab{display:none}
+  .wrap{transition:margin-right .22s ease}
+  body.sheet-open .wrap{margin-right:410px}
 }
 
 /* below the map */
@@ -307,7 +310,7 @@ h1,h2,h3{margin:0;text-wrap:balance}
   let recall = false;
   const revealed = new Set();
   let query = "", hits = new Set(), pathIds = new Set(), preSearch = null;
-  let lastTrigger = null, firstPaint = true;
+  let lastTrigger = null, firstPaint = true, activeId = null;
   const save = () => store.set({ level, open: [...open] });
 
   // ---------- rendering ----------
@@ -320,7 +323,7 @@ h1,h2,h3{margin:0;text-wrap:balance}
   function nodeEl(n) {
     const isOpen = hasKids(n) && open.has(n.id);
     const veiled = recall && n.depth >= 2 && !revealed.has(n.id);
-    const cls = "lbl" + (veiled ? " veil" : "") + (query && hits.has(n.id) ? " hit" : "") + (query && pathIds.has(n.id) ? " path" : "");
+    const cls = "lbl" + (veiled ? " veil" : "") + (query && hits.has(n.id) ? " hit" : "") + (query && pathIds.has(n.id) ? " path" : "") + (n.id === activeId ? " active" : "");
     const lbl = h("button", { type: "button", class: cls, "aria-haspopup": veiled ? null : "dialog", "aria-label": veiled ? "Hidden topic. Tap to reveal it." : null },
       h("span", { class: "t" }, n.t),
       n.depth >= 2 && n.a && n.a.length ? h("span", { class: "cite" }, n.a[0]) : null);
@@ -429,8 +432,37 @@ h1,h2,h3{margin:0;text-wrap:balance}
   }
 
   // ---------- detail sheet ----------
+  function markActive(id) {
+    activeId = id;
+    document.querySelectorAll(".lbl.active").forEach(e => e.classList.remove("active"));
+    const lab = id && document.querySelector(`[data-id="${id}"] > .nd > .lbl`);
+    if (lab) lab.classList.add("active");
+  }
+  // On wide screens the panel pushes the map aside; bring the tapped node back into view.
+  function keepVisible(n) {
+    const st = $("#stage"), li = n === HUB ? null : document.querySelector(`[data-id="${n.id}"]`);
+    const row = li ? li.firstElementChild : $(".hubnode");
+    if (!row) return;
+    const behavior = reduced.matches ? "auto" : "smooth", pad = 20;
+    if (wide.matches && li) {
+      // Show the node with its open sub-branches if they fit beside the panel, otherwise the node itself.
+      const sr = st.getBoundingClientRect(), r = li.getBoundingClientRect(), nr = row.getBoundingClientRect();
+      const onLeft = !!li.closest(".side.left");
+      let dx = 0;
+      if (r.width + 2 * pad <= sr.width) {
+        if (r.right + pad > sr.right) dx = r.right + pad - sr.right;
+        else if (r.left - pad < sr.left) dx = r.left - pad - sr.left;
+      } else {
+        dx = onLeft ? Math.min(0, nr.left - pad - sr.left) || (nr.right + pad - sr.right) : (nr.left - pad - sr.left);
+      }
+      if (dx) st.scrollBy({ left: dx, behavior });
+    }
+    const rr = row.getBoundingClientRect();
+    if (rr.top < 90 || rr.bottom > innerHeight - 20) row.scrollIntoView({ block: "nearest", behavior });
+  }
   function openSheet(n) {
     lastTrigger = n.id;
+    markActive(n === HUB ? null : n.id);
     const sh = $("#sheet"), body = $("#sheetBody");
     const path = []; let p = n.parent; while (p) { path.unshift(p.t); p = p.parent; }
     sh.style.setProperty("--c", n === HUB ? "var(--hub-1)" : `var(--${n.c})`);
@@ -445,13 +477,17 @@ h1,h2,h3{margin:0;text-wrap:balance}
     body.scrollTop = 0;
     $("#scrim").hidden = wide.matches;
     if (sh.hidden) { sh.hidden = false; requestAnimationFrame(() => requestAnimationFrame(() => sh.classList.add("open"))); }
+    document.body.classList.add("sheet-open");
+    setTimeout(() => { scheduleWires(); keepVisible(n); }, reduced.matches ? 0 : 260);
     $("#sheetClose").focus({ preventScroll: true });
   }
   function closeSheet() {
     const sh = $("#sheet");
     if (sh.hidden) return;
     sh.classList.remove("open"); $("#scrim").hidden = true;
-    setTimeout(() => { sh.hidden = true; }, reduced.matches ? 0 : 230);
+    document.body.classList.remove("sheet-open");
+    markActive(null);
+    setTimeout(() => { sh.hidden = true; scheduleWires(); }, reduced.matches ? 0 : 260);
     const el = lastTrigger === "hub" ? $(".hubnode") : document.querySelector(`[data-id="${lastTrigger}"] > .nd > .lbl`);
     if (el) el.focus({ preventScroll: true });
   }
