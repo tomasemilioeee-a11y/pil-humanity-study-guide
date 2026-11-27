@@ -11,7 +11,7 @@
 1. [Lectures 1–2: Humanity in international law](01-humanity-in-international-law.md) · 13 rules, 3 cases, 1 key passages, 10 cards
 2. [Lectures 3–4: Actors, obligations and peacetime frameworks](02-actors-obligations-and-peacetime-frameworks.md) · 17 rules, 3 cases, 10 cards
 3. [Lecture 5: Armed conflict: classification and co-application](03-armed-conflict-classification-and-co-application.md) · 11 rules, 5 cases, 1 key passages, 8 cards
-4. [Lecture 6: Occupation](04-occupation.md) · 9 rules, 3 cases, 4 key passages, 6 cards
+4. [Lecture 6: Occupation](04-occupation.md) · 9 rules, 3 cases, 4 key passages, 15 cards
 5. [Lecture 7: Extraterritorial jurisdiction](05-extraterritorial-jurisdiction.md) · 10 rules, 7 cases, 3 key passages, 7 cards
 6. [Lectures 8–9: Human rights mechanisms](06-human-rights-mechanisms.md) · 14 rules, 2 cases, 9 cards
 7. [Lectures 10–11: International criminal justice: history and the ICC](07-international-criminal-justice-history-and-the-icc.md) · 19 rules, 6 cases, 1 key passages, 13 cards
