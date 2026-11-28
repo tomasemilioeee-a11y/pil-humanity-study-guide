@@ -114,7 +114,7 @@ The Martens Clause; elementary considerations of humanity (Corfu Channel); crime
 
 <details><summary>Answer</summary>
 
-It is 'an effective means of addressing the rapid evolution of military technology' (para 78); like other API rules that were already custom, it was reaffirmed in API Art 1(2) (para 84); its 'continuing existence and applicability is not to be doubted', and it affirms that IHL principles apply to nuclear weapons (para 87). (The 'functional validity … objective barrier' line on the slide is not in the opinion.) Note: the 'functional validity … objective barrier' wording on the Lecture 2 slide is not in the Court's opinion.
+It is 'an effective means of addressing the rapid evolution of military technology' (para 78); like other API rules that were already custom, it was reaffirmed in API Art 1(2) (para 84); its 'continuing existence and applicability is not to be doubted', and it affirms that IHL principles apply to nuclear weapons (para 87). Note: the 'functional validity … objective barrier' wording on the Lecture 2 slide is not in the Court's opinion.
 
 </details>
 

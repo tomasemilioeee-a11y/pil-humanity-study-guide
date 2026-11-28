@@ -28,7 +28,7 @@ A student-made revision guide for the two LL.M finals:
 - [Crimes against humanity](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/crimes-against-humanity.html)
 - [Genocide](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/genocide.html)
 
-Inside: 371 rules to know cold, 177 cases, 43 key passages quoted from judgments and treaties, 262 self-test cards, 17 problem questions (9 from the official sample and past papers, with issue checklists and the summarised March 2026 marking key) and 40 essay questions (10 from the official papers).
+Inside: 371 rules to know cold, 177 cases, 43 key passages quoted from judgments and treaties, 270 self-test cards, 17 problem questions (9 from the official sample and past papers, with issue checklists and the summarised March 2026 marking key) and 40 essay questions (10 from the official papers).
 
 ## Contents
 

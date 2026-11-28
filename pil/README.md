@@ -12,7 +12,7 @@
 2. [Week 2: States and peoples](02-states-and-peoples.md) · 16 rules, 11 cases, 2 key passages, 10 cards
 3. [Week 3: Non-state actors: IOs, individuals, corporations](03-non-state-actors-ios-individuals-corporations.md) · 13 rules, 6 cases, 2 key passages, 8 cards
 4. [Week 4: The law of treaties](04-the-law-of-treaties.md) · 14 rules, 10 cases, 2 key passages, 11 cards
-5. [Week 5: Custom, general principles and other sources](05-custom-general-principles-and-other-sources.md) · 15 rules, 7 cases, 2 key passages, 10 cards
+5. [Week 5: Custom, general principles and other sources](05-custom-general-principles-and-other-sources.md) · 15 rules, 7 cases, 2 key passages, 18 cards
 6. [Week 7: Jus ad bellum](06-jus-ad-bellum.md) · 20 rules, 16 cases, 6 key passages, 17 cards
 7. [Week 8: Jurisdiction and immunities](07-jurisdiction-and-immunities.md) · 22 rules, 15 cases, 3 key passages, 14 cards
 8. [Week 9: International economic law](08-international-economic-law.md) · 16 rules, 11 cases, 1 key passages, 11 cards

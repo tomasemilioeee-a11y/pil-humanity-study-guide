@@ -269,7 +269,7 @@ Piracy: a pragmatic rule, because pirates operate on the high seas outside any S
 
 <details><summary>Answer</summary>
 
-Immunity is a procedural bar tied to the defendant (the State or its official) and decided first (Germany v Italy para 93). Act of State is a substantive rule that a court will not rule on the validity of a foreign State's sovereign acts in its own territory. Non-justiciability bars certain sensitive political questions (Belhaj, UKSC 2017: a narrow sub-category). Kuwait Airways (HL 2002): public-policy exception for flagrant breaches of international law.
+Immunity is a procedural bar tied to the defendant (the State or its official) and decided first, as a preliminary matter (Germany v Italy para 82; procedural, not substantive: para 93). Act of State is a substantive rule that a court will not rule on the validity of a foreign State's sovereign acts in its own territory. Non-justiciability bars certain sensitive political questions (Belhaj, UKSC 2017: a narrow sub-category). Kuwait Airways (HL 2002): public-policy exception for flagrant breaches of international law.
 
 </details>
 

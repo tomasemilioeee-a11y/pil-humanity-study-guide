@@ -4,7 +4,7 @@
 
 ![The boundaries claimed in the North Sea Continental Shelf cases](../img/north-sea-map.png)
 
-*The boundaries claimed in the North Sea Continental Shelf cases.* Equidistance (Geneva Art 6) had not become custom: practice must be extensive and virtually uniform, with opinio juris (para 77).  
+*The boundaries claimed in the North Sea Continental Shelf cases.* Equidistance (Geneva Art 6) had not become custom: practice must be extensive and virtually uniform, with opinio juris (paras 74, 77).  
 <sub>International Court of Justice · Public domain · [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Continental_shelf_boundaries_parties_insisted_in_ICJ_cases_of_North_Sea_Continental_Shelf.png)</sub>
 
 **Mind map:** [Sources of international law](https://tomasemilioeee-a11y.github.io/pil-humanity-study-guide/mind-maps/sources.html), interactive, with recall mode and search.
@@ -16,16 +16,16 @@
 3. Practice: primarily States, sometimes IOs (Concl. 4); physical and verbal acts, sometimes inaction (Concl. 6); widespread, representative and consistent (Concl. 8). Abstention counts only if based on a conscious duty (Lotus p 28). Asylum: 'uncertainty and contradiction … fluctuation and discrepancy' defeats custom. Nicaragua para 186: perfect consistency not required; breaches justified by exceptions confirm the rule.
 4. Time: no fixed duration if practice is extensive and virtually uniform, including specially affected States (North Sea paras 73–74).
 5. Opinio juris: a sense of legal obligation, not courtesy (North Sea para 77); can coexist with other motives. GA resolutions can evidence it depending on content, adoption and voting (Nuclear Weapons paras 70–73: only 'nascent' opinio juris against deterrence practice; Chagos paras 150–153: Res 1514 declaratory).
-6. Induction versus deduction: Nicaragua (paras 184–188) effectively started from opinio juris in GA resolutions (Res 2625) and then checked practice; Kupreškić (ICTY 2000, paras 527–534) used the Martens Clause to let opinio necessitatis outweigh scarce practice (reprisals against civilians prohibited; tu quoque irrelevant) — criticised as deductive.
+6. Induction versus deduction: Nicaragua (paras 184–188) effectively started from opinio juris in GA resolutions (Res 2625) and then checked practice; Kupreškić (ICTY 2000, paras 527–534) used the Martens Clause to let opinio necessitatis outweigh scarce practice (reprisals against civilians prohibited; tu quoque rejected separately at paras 515–520) — criticised as deductive.
 7. Treaty and custom: a treaty provision may codify, crystallise or generate custom (North Sea): generation needs a norm-creating provision, widespread and representative participation including specially affected States, extensive and virtually uniform practice, and opinio juris. Equidistance in Geneva Art 6 failed. Treaty and custom coexist with separate identities (Nicaragua paras 175–179; VCLT Art 43).
-8. Climate AO 2025: the climate treaties are not a lex specialis excluding general IL; customary duties of due diligence and cooperation bind all States; a non-party must show equivalent conduct, otherwise it bears 'the full burden' (paras 309–315).
+8. Climate AO 2025: the climate treaties are not a lex specialis excluding general IL; customary duties of due diligence and cooperation bind all States; a non-party that co-operates in a way equivalent to a State party may be considered to fulfil its customary obligations; if it does not, it bears 'the full burden' of demonstrating that its policies and practices conform to them (paras 309–315).
 9. Regional and bilateral custom: the party relying on it must prove it binds the other (Asylum); bilateral custom exists (Right of Passage 1960; Costa Rica v Nicaragua para 141 on subsistence fishing). Persistent objector: consistent, open objection during formation (Fisheries 1951; ILC Concl. 15); never against jus cogens. A State that objects only after a rule has formed is normally bound, but Hernández recognises a 'subsequent objector': a State that accepted an existing rule and objects to its proposed modification is not bound by the changed rule if the others acquiesce (he reads Fisheries 1951 this way).
 10. General principles (Art 38(1)(c)): principles of law generally (good faith, reparation — Chorzów), principles from domestic orders (res judicata, estoppel, burden of proof), principles of the international system (ex injuria jus non oritur). Ignore the anachronistic 'civilized nations'.
 11. Subsidiary means (Art 38(1)(d)): no binding precedent (Art 59) but the ICJ follows its case law; the ILC, ILA, IDI, ICRC Customary IHL Study (contested by the US: Bellinger and Haynes). Equity infra, praeter, contra legem; ex aequo et bono only by consent (Art 38(2)).
 12. Unilateral declarations (Nuclear Tests 1974): public, by a competent authority, with intent to be bound — binding without acceptance, read restrictively (ILC Guiding Principles 2006; DRC v Rwanda: the justice minister's statement was not specific enough). Hierarchy: no formal hierarchy among Art 38 sources, but jus cogens (VCLT 53, 64), Charter Art 103, erga omnes.
 13. Sources architecture: formal sources (binding law-creation methods) versus material sources (evidence of a rule: judgments, ILC studies, resolutions, textbooks). Art 38 is technically the ICJ's lex arbitri but works as the authoritative statement of sources; the ILC's work is an 'indirect but influential' source. SC decisions bind under Art 25 and prevail under Art 103; Res 1373 (2001) laid down general rules close to 'legislating'. Soft law is non-binding (the term is 'misleading'): it can be a 'subterfuge' for inaction or point to future hard law (Stockholm and Rio; the ecocide proposal).
 14. Relativity of custom (Hernández): acquiescence must be 'clear and consistent' (a high threshold). New States are bound by existing custom; a tabula rasa has been rejected even by new States. Bilateral custom exists (Right of Passage), but a State cannot claim a special custom exempting itself alone. Persistent objection examples: the US and Japan against expansive territorial-sea claims (1970s), China against restrictive immunity. Hernández warns that objector rules favour 'power asymmetries' and fragment general custom.
-15. Jus cogens fine print: Art 53 requires 'double' recognition, as a norm of general international law and as non-derogable, by the international community of States as a whole (positivist; contrast the naturalists Orakhelashvili and Cassese, and Thirlway's custom-based view). ILC 2022 Conclusions: custom is the 'most common basis' (Concl. 5), there is no regional jus cogens, and all peremptory norms are erga omnes (Concl. 17). Candidates with some support: enforced disappearance, the right to life, non-refoulement. Effects: a treaty conflicting at conclusion is void ab initio in its entirety (Arts 53, 44(5)); one conflicting with a new peremptory norm terminates from then on (Arts 64, 71(2)); no derogation by reservation, custom or unilateral act; no circumstance precluding wrongfulness (Art 26). It confers neither jurisdiction (DRC v Rwanda) nor an exception to immunity (Germany v Italy). Abi-Saab: an 'empty box' waiting to be filled.
+15. Jus cogens fine print: Art 53 requires 'double' recognition, as a norm of general international law and as non-derogable, by the international community of States as a whole (positivist; contrast the naturalists Orakhelashvili and Cassese, and Thirlway's custom-based view). ILC 2022 Conclusions: custom is the 'most common basis' (Concl. 5), there is no regional jus cogens, and all peremptory norms are erga omnes (Concl. 17). Further candidates with some support, according to Special Rapporteur Tladi (not in the Conclusions' annex): enforced disappearance, the right to life, non-refoulement. Effects: a treaty conflicting at conclusion is void ab initio in its entirety (Arts 53, 44(5)); one conflicting with a new peremptory norm terminates from then on (Arts 64, 71(2)); no derogation by reservation, custom or unilateral act; no circumstance precluding wrongfulness (Art 26). It confers neither jurisdiction (DRC v Rwanda) nor an exception to immunity (Germany v Italy). Abi-Saab: an 'empty box' waiting to be filled.
 
 ## Key passages
 
@@ -44,12 +44,12 @@
 ## What the lecturers stressed
 
 - Lecture 5 (Marhold) restates the 'traditional framework' from Lotus ('International law governs relations between independent States …') before the two-element doctrine.
-- Practice questions on the slides: whose practice, what practice (ILC Conclusion 6: physical and verbal acts, inaction), abstention (Lotus), 'constant and uniform' (Asylum), time (North Sea), and how to read breaches (Nicaragua paras 186–188).
+- Practice questions on the slides: whose practice, what practice (ILC Conclusion 6: physical and verbal acts, inaction), abstention (Lotus), 'constant and uniform' (Asylum), time (North Sea), and how to read breaches (Nicaragua para 186).
 - The working group adds the method debate: should custom be identified differently by field (immunities, continental shelf, environment, IHL)? Does judicial ethos matter — activism versus conservatism? One sentence of this earns originality marks.
 - Whose and what practice (slides 11–12, ILC Conclusions 2018): primarily States, sometimes IOs; the conduct of other actors (NGOs, individuals) is not practice, but may be relevant in assessing it (Concl 4(3)). Forms include diplomatic acts and correspondence, conduct on resolutions and treaties, executive and operational conduct 'on the ground', legislative and administrative acts, and national court decisions, with no predetermined hierarchy among them (Concl 6(2)–(3)).
 - Opinio juris with mixed motives (slides 19–20): in Nicaragua v Colombia (2023, paras 77–79) States' practice before the CLCS was 'indicative of opinio juris, even if such practice may have been motivated in part by considerations other than a sense of legal obligation', and opinio juris may be shown 'by induction based on the analysis of a sufficiently extensive and convincing practice'. Contrast Nuclear Weapons para 73: GA resolutions revealing the 'desire' of much of the community are not yet opinio juris.
 - The persistent objector's origins, 'two ambiguous judicial statements' (slides 24–25): Fisheries (1951, p 131: the ten-mile rule 'would appear to be inapplicable as against Norway inasmuch as she has always opposed' it) and Asylum (1950, pp 277–278: any regional custom could not be invoked against Peru, which repudiated it by not ratifying the 1933 and 1939 Montevideo Conventions).
-- The tension (slides 26–28): North Sea para 63 says general customary rules 'must have equal force for all members of the international community' and allow no 'unilateral exclusion exercisable at will'; the Climate AO para 315 adds that 'customary obligations are the same for all States', so a non-party must show equivalent conduct or bear 'the full burden'. The slide asks whether this confirms or undermines the persistent objector.
+- The tension (slides 26–28): North Sea para 63 says general customary rules 'must have equal force for all members of the international community' and allow no 'unilateral exclusion exercisable at will'; the Climate AO para 315 adds that 'customary obligations are the same for all States', so a non-party that co-operates like a State party may be considered to fulfil its customary obligations, while one that does not bears 'the full burden' of demonstrating that its policies and practices conform to them. The slide asks whether this confirms or undermines the persistent objector.
 - General principles (slide 30): three notions, principles of law in general (good faith, the duty to make reparation), principles derived from domestic legal orders (mostly procedural), and principles derived from the spirit of international law (legality, ex injuria jus non oritur, proportionality). They are subsidiary: courts reach for them when treaty and custom run out. Doctrine mattered far more in the 'infancy' of European international law (Grotius, Vattel) than today (slide 32).
 - Unilateral acts of IOs (slide 37): distinguish acts addressed to the organisation's own organs from acts addressed to others (States, individuals), and the instrumentum (the form, e.g. a 'resolution') from the negotium (its legal content: a binding decision or a mere recommendation).
 - Codification and progressive development (slide 38): the ILC under Charter Art 13(1)(a) (the VCLT, the VCDR, ARSIWA 2001); private codification by the ILA, the Institut de droit international and the ICRC's Customary IHL Study; and the soft law versus hard law debate.
@@ -66,7 +66,7 @@ Equidistance in Geneva Art 6 was neither codified custom nor crystallised nor ge
 ### Asylum (Colombia v Peru)
 *ICJ · 1950*
 
-Colombia failed to prove a regional custom of diplomatic asylum binding Peru: practice showed too much uncertainty and contradiction, and Peru had repudiated it.
+Colombia failed to prove a regional custom, binding Peru, entitling the State granting asylum to qualify the offence unilaterally and definitively: practice showed too much uncertainty and contradiction, and Peru had repudiated it.
 
 **Use it for:** Regional custom; consistency; persistent objection.
 
@@ -94,7 +94,7 @@ Reprisals against civilians are prohibited by custom; through the Martens Clause
 ### Obligations of States in respect of Climate Change (AO)
 *ICJ · 2025*
 
-The climate treaties do not exclude general IL; customary duties of due diligence to prevent significant harm and to cooperate bind all States; non-parties bear the full burden of showing equivalent conduct.
+The climate treaties do not exclude general IL; customary duties of due diligence to prevent significant harm and to cooperate bind all States; a non-party that co-operates in a way equivalent to a State party may be considered to fulfil its customary obligations, while one that does not bears the full burden of demonstrating that its policies and practices conform to its customary obligations (para 315).
 
 **Use it for:** Treaty–custom interaction; due diligence.
 
@@ -161,7 +161,7 @@ Principles of law generally (good faith, full reparation — Chorzów); principl
 
 <details><summary>Answer</summary>
 
-Art 53: conflict at conclusion, so the whole treaty is void ab initio (no severance, Art 44(5)) and the parties must eliminate the consequences of acts performed under it (Art 71(1)). Art 64: a new peremptory norm emerges, so the treaty becomes void and terminates from then on, and rights acquired earlier survive so far as their maintenance does not conflict with the new norm (Art 71(2)).
+Art 53: conflict at conclusion, so the whole treaty is void ab initio (no severance, Art 44(5)) and the parties must eliminate as far as possible the consequences of acts performed in reliance on the conflicting provision and bring their mutual relations into conformity with the norm (Art 71(1)). Art 64: a new peremptory norm emerges, so the treaty becomes void and terminates from then on, and rights acquired earlier survive so far as their maintenance does not conflict with the new norm (Art 71(2)).
 
 </details>
 
@@ -186,6 +186,70 @@ Two ambiguous statements: Fisheries (1951, the ten-mile rule inapplicable agains
 <details><summary>Answer</summary>
 
 Ask whom it addresses (the organisation's own organs, or States and others outside it) and separate its form, the instrumentum (e.g. a resolution), from its legal content, the negotium (a binding decision or a recommendation).
+
+</details>
+
+**Q. What are the two elements of custom, and how are they assessed?**
+
+<details><summary>Answer</summary>
+
+A general practice and its acceptance as law (opinio juris): the acts must amount to a settled practice and be carried out so as to show a belief that the practice is obligatory by a rule of law; mere habit, courtesy or protocol is not enough (North Sea para 77). Each element is ascertained separately, with regard to the overall context, the nature of the rule and the particular circumstances (ILC Concl. 2–3).
+
+</details>
+
+**Q. Whose and what practice counts, and when does abstention count?**
+
+<details><summary>Answer</summary>
+
+Primarily that of States, in certain cases that of IOs; other actors' conduct is not practice but may help assess it (ILC Concl. 4). Practice includes physical and verbal acts and, under certain circumstances, inaction, with no predetermined hierarchy among its forms (Concl. 6). Abstention counts only if based on consciousness of a duty to abstain (Lotus p 28).
+
+</details>
+
+**Q. How does the ICJ treat practice that is inconsistent with an alleged customary rule?**
+
+<details><summary>Answer</summary>
+
+Perfect conformity is not required: conduct must be consistent in general, and inconsistent conduct should generally have been treated as a breach, not as recognition of a new rule; a State that invokes exceptions or justifications within the rule confirms it (Nicaragua para 186). But practice marked by 'uncertainty and contradiction … fluctuation and discrepancy' shows no constant and uniform usage (Asylum p 277).
+
+</details>
+
+**Q. Is a minimum duration required before a rule becomes custom?**
+
+<details><summary>Answer</summary>
+
+No. Even a short period can suffice if, within it, State practice, including that of specially affected States, was extensive and virtually uniform and showed a general recognition that a legal obligation is involved; very widespread and representative participation in a convention might also suffice (North Sea paras 73–74; ILC Concl. 8(2)).
+
+</details>
+
+**Q. Can General Assembly resolutions show opinio juris?**
+
+<details><summary>Answer</summary>
+
+They are not binding but may evidence opinio juris depending on their content and conditions of adoption. Annual resolutions calling for a convention banning nuclear weapons revealed only the 'desire' of a large part of the community; the nascent opinio juris was still in tension with the practice of deterrence (Nuclear Weapons para 73). Res 1514 has a declaratory character with regard to the customary right to self-determination (Chagos para 152).
+
+</details>
+
+**Q. How is regional or bilateral custom proved?**
+
+<details><summary>Answer</summary>
+
+The party relying on it must prove that it is established so as to bind the other party: a constant and uniform usage expressing a right of one State and a duty of the other (Asylum pp 276–277). Long continued practice between two States, accepted by them as regulating their relations, can create bilateral custom (Right of Passage 1960 p 39; Costa Rica v Nicaragua 2009 para 141, subsistence fishing).
+
+</details>
+
+**Q. What roles can equity play, and when may the ICJ decide ex aequo et bono?**
+
+<details><summary>Answer</summary>
+
+Equity is not as such a source of international law. It can operate infra legem (within the law), praeter legem (filling gaps) or contra legem (against the positive rule). The Court may decide ex aequo et bono only if the parties agree (Art 38(2)).
+
+</details>
+
+**Q. What is the status of judicial decisions and teachings?**
+
+<details><summary>Answer</summary>
+
+Subsidiary means for determining the rules of law (Art 38(1)(d)): traditionally not a formal source, only evidence of treaty, custom and general principles, with no binding precedent (Art 59). Teachings can influence the formal norm-creating process and mattered most in the infancy of European international law (Grotius, Vattel).
 
 </details>
 

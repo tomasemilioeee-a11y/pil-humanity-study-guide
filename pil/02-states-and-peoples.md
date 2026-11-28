@@ -46,7 +46,7 @@
 - Summary slide 11 in full: States have absolute personality and peoples the right to self-determination; 'surviving historical' subjects are the Holy See and the Sovereign Order of Malta (Spruyt); IOs have functional personality and law-making powers only if their members gave them, and only as far as their functions require; individuals and corporations have limited personality.
 - Montevideo beyond Art 1 (slide 14 notes): a federal State is one person (Art 2); political existence is independent of recognition (Art 3); juridical equality (Art 4); recognition is unconditional and irrevocable (Art 6) and may be express or tacit (Art 7); no State may intervene in another's affairs (Art 8). An earlier formula: Deutsche Continental Gas-Gesellschaft v Polish State (1929): a territory, a people and a public power over both.
 - Territory covers internal waters, the territorial sea and the airspace above (Nicaragua para 212; Chicago Convention Art 1; UNCLOS). Title passes by treaty or by tacit agreement inferred from conduct, because the law looks to the parties' intentions, not to form (Pedra Branca para 120).
-- Uti possidetis in application: rely on the colonial titles as the colonial authorities interpreted and applied them (Benin/Niger 2005 para 140). Title prevails over effectivités, which count only where there is no title (Burkina Faso/Mali para 68, applied to Bakassi in Cameroon v Nigeria).
+- Uti possidetis in application: rely on the colonial titles as the colonial authorities interpreted and applied them (Benin/Niger 2005 para 140). Title prevails over effectivités, which count only where there is no title (Burkina Faso/Mali para 63, applied to Bakassi in Cameroon v Nigeria).
 - Effective government (slide 23): it is needed so that someone protects third States' rights in the territory; a revolutionary government binds the State (Tinoco); and 'failed States' such as Somalia, Afghanistan, Bosnia-Herzegovina and Cambodia keep their statehood despite losing effective government.
 - Capacity to enter into relations, 'still relevant?' (slide 24): nineteenth- and early twentieth-century writers (Lawrence 1895; Anzilotti 1929) used it to deny personality to non-European polities. Today it essentially means independence.
 - Types of recognition (slide 25): de jure or de facto; premature or late; formal, or informal through admission to IOs, UN membership or direct treaty relations. Constitutive-era examples (slide 27): Island of Palmas (contracts with native princes are not treaties) and Oppenheim (1905: a State becomes an international person 'through recognition only and exclusively').
@@ -55,7 +55,7 @@
 - Self-determination versus the principle of nationalities (slides 36–37): in 1920 the Åland jurists held it was not yet a positive rule; national groups had no right to separate 'by the simple expression of a wish', and disposing of territory was an attribute of every definitively constituted State's sovereignty.
 - Res 1514 paras 1–3 (slide 38): alien subjugation denies fundamental human rights; all peoples have the right to self-determination; and 'inadequacy of political, economic, social or educational preparedness should never serve as a pretext for delaying independence'.
 - Who is a people (slides 39–40): Kosovo para 79 (a right to independence for non-self-governing territories and peoples under alien subjugation, domination and exploitation); Quebec para 111 (no right of component parts to secede unilaterally); Western Sahara para 59 (the GA may dispense with consulting a population that is not a 'people', or where consultation is unnecessary).
-- Attributes of peoples' personality (slides 41–44): the choice of status (Res 1541; Western Sahara para 75); the territorial integrity of a non-self-governing territory, whose status is 'separate and distinct' from the administering State (Res 2625; Chagos; OPT 2024); permanent sovereignty over natural resources (Res 1803 (1962)); wars of national liberation as international armed conflicts (AP I Art 1(4)); and sea-level rise affecting self-determination (Climate AO 2025 para 357).
+- Attributes of peoples' personality (slides 41–44): the choice of status (Res 1541; Western Sahara para 57); the territorial integrity of a non-self-governing territory, whose status is 'separate and distinct' from the administering State (Res 2625; Chagos; OPT 2024); permanent sovereignty over natural resources (Res 1803 (1962)); wars of national liberation as international armed conflicts (AP I Art 1(4)); and sea-level rise affecting self-determination (Climate AO 2025 para 357).
 - Working group readings for Week 2: Chagos paras 25–53 and 139–182; Kosovo paras 51 and 57–122; OPT AO 2024 paras 230–243.
 
 ## Cases and materials
@@ -126,7 +126,7 @@ Western Sahara was not terra nullius when Spain colonised it. There were legal t
 ### Land and Maritime Boundary (Cameroon v Nigeria)
 *ICJ · 2002*
 
-Sovereignty over the Bakassi Peninsula lay with Cameroon under the 1913 Anglo-German Agreement. The 1884 treaty with the Kings and Chiefs of Old Calabar created a colonial protectorate, not a relationship with a State, so Britain could cede Bakassi (paras 205–209). Nigeria's effectivités could not displace the title (applying Burkina Faso/Mali para 68).
+Sovereignty over the Bakassi Peninsula lay with Cameroon under the 1913 Anglo-German Agreement. The 1884 treaty with the Kings and Chiefs of Old Calabar created a colonial protectorate, not a relationship with a State, so Britain could cede Bakassi (paras 205–209). Nigeria's effectivités could not displace the title (applying Burkina Faso/Mali para 63).
 
 **Use it for:** Title versus effectivités; State-like entities in the colonial period.
 
@@ -201,7 +201,7 @@ Somalia v Woodhouse Drake (1993): whether it is the constitutional government; t
 
 <details><summary>Answer</summary>
 
-The territory was not terra nullius at colonisation. Ties of allegiance to Morocco's Sultan and some Mauritanian land rights existed, but no ties of territorial sovereignty, so Res 1514 and the people's free and genuine will govern (para 162). Para 59: the GA may dispense with consultation; para 75: the Res 1541 options.
+The territory was not terra nullius at colonisation. Ties of allegiance to Morocco's Sultan and some Mauritanian land rights existed, but no ties of territorial sovereignty, so Res 1514 and the people's free and genuine will govern (para 162). Para 59: the GA may dispense with consultation; para 57: the Res 1541 options.
 
 </details>
 
@@ -209,7 +209,7 @@ The territory was not terra nullius at colonisation. Ties of allegiance to Moroc
 
 <details><summary>Answer</summary>
 
-Where they conflict, the holder of the title prevails; effectivités count where there is no title, or to show how an unclear title was applied (Burkina Faso/Mali para 68; Cameroon v Nigeria on Bakassi; Benin/Niger para 140). Title can also pass by tacit agreement inferred from conduct (Pedra Branca para 120).
+Where they conflict, the holder of the title prevails; effectivités count where there is no title, or to show how an unclear title was applied (Burkina Faso/Mali para 63 — the slide cites para 68, but the passage is para 63 of the judgment; Cameroon v Nigeria on Bakassi; Benin/Niger para 140). Title can also pass by tacit agreement inferred from conduct (Pedra Branca para 120).
 
 </details>
 
@@ -217,7 +217,7 @@ Where they conflict, the holder of the title prevails; effectivités count where
 
 <details><summary>Answer</summary>
 
-A right to choose their status (Res 1541; Western Sahara para 75); the territorial integrity of their territory (Res 2625; Chagos); permanent sovereignty over natural resources (Res 1803); a special status in armed conflict (AP I Art 1(4)); and, per the Climate AO para 357, protection against sea-level rise eroding these rights.
+A right to choose their status (Res 1541; Western Sahara para 57 — the slide cites para 75); the territorial integrity of their territory (Res 2625; Chagos); permanent sovereignty over natural resources (Res 1803); a special status in armed conflict (AP I Art 1(4)); and, per the Climate AO para 357, protection against sea-level rise eroding these rights.
 
 </details>
 

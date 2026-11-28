@@ -227,7 +227,7 @@ The 'most grave forms' of the use of force, judged by scale and effects. Sending
 
 <details><summary>Answer</summary>
 
-An armed attack on the victim State, its declaration that it has been attacked, its request for help, necessity and proportionality, and a report to the SC.
+An armed attack on the victim State, its declaration that it has been attacked, its request for help, necessity and proportionality (Nicaragua paras 195, 199). Art 51 also requires an immediate report to the SC; in custom a missing report is not a condition of lawfulness but evidence that the State did not believe it was acting in self-defence (para 200).
 
 </details>
 
